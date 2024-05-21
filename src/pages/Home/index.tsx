@@ -57,7 +57,7 @@ export default function Home() {
                   Welcome to RPG Gallery
                 </h1>
                 <p className="mt-8 lg:text-lg text-base text-gray-600">
-                  A gallery of RPG characters made using artificial
+                  A gallery of RPG worlds and characters made using artificial
                   intelligence!
                 </p>
               </div>
