@@ -1,7 +1,8 @@
 {
-  "name": "rpg-gallery",
+  "name": "rpg-gallery.vercel.app",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.0.1",
+  "homepage": "rpg-gallery.vercel.app",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -10,8 +11,11 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@headlessui/react": "^2.0.3",
+    "@heroicons/react": "^2.1.3",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.23.1"
   },
   "devDependencies": {
     "@types/react": "^18.2.66",
