@@ -1,0 +1,5 @@
+Flask
+Gunicorn
+jsonpickle
+flask-cors
+black
