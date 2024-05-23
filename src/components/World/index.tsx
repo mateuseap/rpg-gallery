@@ -13,6 +13,8 @@ interface Character {
   realm: string;
   appearance: string;
   personality: string;
+  strengths: string;
+  weaknesses: string;
 }
 
 export interface WorldProps {
@@ -101,7 +103,10 @@ export default function World({
                   <h3 className="text-lg font-semibold text-black">
                     {ai.name}
                   </h3>
-                  <p className="text-gray-600">{"> "}{ai.description}</p>
+                  <p className="text-gray-600">
+                    {"> "}
+                    {ai.description}
+                  </p>
                 </div>
               ))}
             </div>
@@ -146,24 +151,80 @@ export default function World({
                       alt={selectedCharacter?.name}
                       className="w-full h-64 object-cover rounded-lg"
                     />
-                    <h4 className="mt-4 text-lg font-semibold">Background</h4>
-                    <p className="text-gray-600">
-                      {selectedCharacter?.background}
-                    </p>
-                    <h4 className="mt-4 text-lg font-semibold">Race</h4>
-                    <p className="text-gray-600">{selectedCharacter?.race}</p>
-                    <h4 className="mt-4 text-lg font-semibold">Class</h4>
-                    <p className="text-gray-600">{selectedCharacter?.class}</p>
-                    <h4 className="mt-4 text-lg font-semibold">Realm</h4>
-                    <p className="text-gray-600">{selectedCharacter?.realm}</p>
-                    <h4 className="mt-4 text-lg font-semibold">Appearance</h4>
-                    <p className="text-gray-600">
-                      {selectedCharacter?.appearance}
-                    </p>
-                    <h4 className="mt-4 text-lg font-semibold">Personality</h4>
-                    <p className="text-gray-600">
-                      {selectedCharacter?.personality}
-                    </p>
+                    {selectedCharacter?.background && (
+                      <>
+                        <h4 className="mt-4 text-lg font-semibold">
+                          Background
+                        </h4>
+                        <p className="text-gray-600">
+                          {selectedCharacter.background}
+                        </p>
+                      </>
+                    )}
+                    {selectedCharacter?.race && (
+                      <>
+                        <h4 className="mt-4 text-lg font-semibold">Race</h4>
+                        <p className="text-gray-600">
+                          {selectedCharacter.race}
+                        </p>
+                      </>
+                    )}
+                    {selectedCharacter?.class && (
+                      <>
+                        <h4 className="mt-4 text-lg font-semibold">Class</h4>
+                        <p className="text-gray-600">
+                          {selectedCharacter.class}
+                        </p>
+                      </>
+                    )}
+                    {selectedCharacter?.realm && (
+                      <>
+                        <h4 className="mt-4 text-lg font-semibold">Realm</h4>
+                        <p className="text-gray-600">
+                          {selectedCharacter.realm}
+                        </p>
+                      </>
+                    )}
+                    {selectedCharacter?.appearance && (
+                      <>
+                        <h4 className="mt-4 text-lg font-semibold">
+                          Appearance
+                        </h4>
+                        <p className="text-gray-600">
+                          {selectedCharacter.appearance}
+                        </p>
+                      </>
+                    )}
+                    {selectedCharacter?.personality && (
+                      <>
+                        <h4 className="mt-4 text-lg font-semibold">
+                          Personality
+                        </h4>
+                        <p className="text-gray-600">
+                          {selectedCharacter.personality}
+                        </p>
+                      </>
+                    )}
+                    {selectedCharacter?.strengths && (
+                      <>
+                        <h4 className="mt-4 text-lg font-semibold">
+                          Strengths
+                        </h4>
+                        <p className="text-gray-600">
+                          {selectedCharacter.strengths}
+                        </p>
+                      </>
+                    )}
+                    {selectedCharacter?.weaknesses && (
+                      <>
+                        <h4 className="mt-4 text-lg font-semibold">
+                          Weaknesses
+                        </h4>
+                        <p className="text-gray-600">
+                          {selectedCharacter.weaknesses}
+                        </p>
+                      </>
+                    )}
                   </div>
                   <div className="mt-4">
                     <button
