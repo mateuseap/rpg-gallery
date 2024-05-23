@@ -1,5 +1,18 @@
 class Character:
-    def __init__(self, name, description, imageUrl=None, background=None, race=None, char_class=None, realm=None, appearance=None, personality=None, strengths=None, weaknesses=None):
+    def __init__(
+        self,
+        name,
+        description,
+        imageUrl=None,
+        background=None,
+        race=None,
+        char_class=None,
+        realm=None,
+        appearance=None,
+        personality=None,
+        strengths=None,
+        weaknesses=None,
+    ):
         self.name = name
         self.description = description
         self.imageUrl = imageUrl

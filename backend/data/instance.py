@@ -3,9 +3,11 @@ import base64
 from pathlib import Path
 from classes.world import World
 
+
 def convert_image_to_base64(image_path):
     with open(image_path, "rb") as image_file:
-        return base64.b64encode(image_file.read()).decode('utf-8')
+        return base64.b64encode(image_file.read()).decode("utf-8")
+
 
 # Paths to image files
 image_paths = {
@@ -21,15 +23,15 @@ image_paths = {
 }
 
 # Load the worlds data from the JSON file
-with open('data/worlds.json', 'r') as file:
+with open("data/worlds.json", "r") as file:
     worlds_data = json.load(file)
 
 # Convert image URLs to base64 in character data
 for world in worlds_data:
-    for character in world['characters']:
-        image_key = character['imageUrl']
+    for character in world["characters"]:
+        image_key = character["imageUrl"]
         if image_key in image_paths:
-            character['imageUrl'] = convert_image_to_base64(image_paths[image_key])
+            character["imageUrl"] = convert_image_to_base64(image_paths[image_key])
 
 # Create World instances
 worlds = [World(**world_data) for world_data in worlds_data]
