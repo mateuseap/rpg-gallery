@@ -19,8 +19,7 @@ export default function Home() {
       characters: [
         {
           name: "Seraphina",
-          description:
-            "A fierce warrior with a heart of gold.",
+          description: "A fierce warrior with a heart of gold.",
           imageUrl: seraphinaImageUrl,
           background:
             "Seraphina was orphaned at a young age and raised by a group of skilled warriors. She honed her skills in combat and became a formidable fighter, determined to protect those in need.",
@@ -34,8 +33,7 @@ export default function Home() {
         },
         {
           name: "Alaric",
-          description:
-            "A mysterious wizard with a troubled past.",
+          description: "A mysterious wizard with a troubled past.",
           imageUrl: alaricImageUrl,
           background:
             "Alaric was once a powerful mage, but he was betrayed by a former ally and lost his powers. He now seeks to regain his abilities and uncover the truth behind his betrayal.",
@@ -49,8 +47,7 @@ export default function Home() {
         },
         {
           name: "Talia",
-          description:
-            "A cunning rogue with a thirst for adventure.",
+          description: "A cunning rogue with a thirst for adventure.",
           imageUrl: taliaImageUrl,
           background:
             "Talia grew up on the streets, learning to fend for herself and hone her skills in thievery and deception. She now seeks to use her abilities for good, taking on dangerous missions in exchange for valuable information.",
@@ -66,12 +63,13 @@ export default function Home() {
       ais: [
         {
           name: "HuggingChat",
-          description: "Used to generate the history of Elysium and all of its characters. The model used was NousResearch/Nous-Hermes-2-Mixtral-8x7B-DPO."
+          description:
+            "Used to generate the history of Elysium and all of its characters. The model used was NousResearch/Nous-Hermes-2-Mixtral-8x7B-DPO.",
         },
         {
           name: "AnimatedDiff",
-          description: "Used to generate the gifs of Elysium characters."
-        }
+          description: "Used to generate the gifs of Elysium characters.",
+        },
       ],
       initialWorldInfoVisible: true,
     },
@@ -89,8 +87,10 @@ export default function Home() {
             "Akemi was born in a small rural village in Japan, but from an early age she felt drawn to the digital world. After the death of her parents in a corporate attack, she fled to Neo-Recife in search of revenge. There, she joined a group of rebel hackers and trained as a Netrunner and ninja. Akemi has become one of the most skilled hackers in the city, using her skills to fight Arasaka and other megacorporations.",
           race: "Human",
           class: "Netrunner",
-          strengths: "Intelligent, agile, skilled in hand-to-hand combat and hacking, loyal to his friends, dedicated to justice.",
-          weaknesses: "Impulsive, vindictive, sometimes she acts without thinking about the consequences, she has difficulty trusting new people.",
+          strengths:
+            "Intelligent, agile, skilled in hand-to-hand combat and hacking, loyal to his friends, dedicated to justice.",
+          weaknesses:
+            "Impulsive, vindictive, sometimes she acts without thinking about the consequences, she has difficulty trusting new people.",
         },
         {
           name: 'Jax "Metalhead" Stone',
@@ -101,8 +101,10 @@ export default function Home() {
             "Jax was a soldier in the American military who was seriously injured in a war against megacorporations. To save his life, he was subjected to a cybernetization process, which transformed him into a cyborg. Jax became a mercenary, using his skills for the highest bidder. He is known for his brutality and efficiency, but he also has his own code of honor and always protects the innocent.",
           race: "Human (Cyborg)",
           class: "Mercenary",
-          strengths: "Strong, resilient, skilled in combat, loyal to his principles, protector of the innocent.",
-          weaknesses: "Reckless, impulsive, prone to violence, has difficulty connecting with other people.",
+          strengths:
+            "Strong, resilient, skilled in combat, loyal to his principles, protector of the innocent.",
+          weaknesses:
+            "Reckless, impulsive, prone to violence, has difficulty connecting with other people.",
         },
         {
           name: "Xar'tul",
@@ -113,19 +115,23 @@ export default function Home() {
             "Xar'tul arrived on Earth in a mysterious spaceship and quickly adapted to life on Neo-Reef. He became a talented hacker, using his skills to steal information from megacorporations and sell it to the highest bidder. Xar'tul is motivated by profit, but he also has a sense of justice and sometimes uses his abilities to help those in need.",
           race: "Alien",
           class: "Hacker",
-          strengths: "Intelligent, skilled in hacking, creative, independent, defender of those in need.",
-          weaknesses: "Arrogant, greedy, suspicious of other people, he has difficulty integrating into human society.",
+          strengths:
+            "Intelligent, skilled in hacking, creative, independent, defender of those in need.",
+          weaknesses:
+            "Arrogant, greedy, suspicious of other people, he has difficulty integrating into human society.",
         },
       ],
       ais: [
         {
           name: "Gemini",
-          description: "Used to generate the history of Neo-Recife and all of its characters."
+          description:
+            "Used to generate the history of Neo-Recife and all of its characters.",
         },
         {
           name: "Civitai",
-          description: "Used to generate the images of Neo-Recife characters, using the ToonYou model."
-        }
+          description:
+            "Used to generate the images of Neo-Recife characters, using the ToonYou model.",
+        },
       ],
       initialWorldInfoVisible: false,
     },
@@ -183,12 +189,13 @@ export default function Home() {
       ais: [
         {
           name: "GPT-4o",
-          description: "Used to generate the history of Elaria and all of its characters."
+          description:
+            "Used to generate the history of Elaria and all of its characters.",
         },
         {
           name: "Stable Diffusion",
-          description: "Used to generate images of Elaria's characters."
-        }
+          description: "Used to generate images of Elaria's characters.",
+        },
       ],
       initialWorldInfoVisible: false,
     },

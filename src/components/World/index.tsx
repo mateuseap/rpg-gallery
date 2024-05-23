@@ -7,14 +7,14 @@ interface Character {
   name: string;
   description: string;
   imageUrl: string;
-  background: string;
-  race: string;
-  class: string;
-  realm: string;
-  appearance: string;
-  personality: string;
-  strengths: string;
-  weaknesses: string;
+  background?: string;
+  race?: string;
+  class?: string;
+  realm?: string;
+  appearance?: string;
+  personality?: string;
+  strengths?: string;
+  weaknesses?: string;
 }
 
 export interface WorldProps {
