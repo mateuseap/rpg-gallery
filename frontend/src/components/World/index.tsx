@@ -1,29 +1,7 @@
-import { useState } from "react";
+import { useState, Fragment } from "react";
 import { ChevronDownIcon, ChevronUpIcon } from "@heroicons/react/24/outline";
 import { Dialog, Transition } from "@headlessui/react";
-import { Fragment } from "react";
-
-interface Character {
-  name: string;
-  description: string;
-  imageUrl: string;
-  background?: string;
-  race?: string;
-  class?: string;
-  realm?: string;
-  appearance?: string;
-  personality?: string;
-  strengths?: string;
-  weaknesses?: string;
-}
-
-export interface WorldProps {
-  title: string;
-  history: string;
-  characters: Character[];
-  ais: Array<{ name: string; description: string }>;
-  initialWorldInfoVisible?: boolean;
-}
+import { ICharacter, IWorld } from "../../types";
 
 export default function World({
   title,
@@ -31,12 +9,12 @@ export default function World({
   characters,
   ais,
   initialWorldInfoVisible = false,
-}: WorldProps) {
+}: IWorld) {
   const [isWorldInfoVisible, setIsWorldInfoVisible] = useState(
     initialWorldInfoVisible
   );
   const [isModalOpen, setIsModalOpen] = useState(false);
-  const [selectedCharacter, setSelectedCharacter] = useState<Character | null>(
+  const [selectedCharacter, setSelectedCharacter] = useState<ICharacter | null>(
     null
   );
 
@@ -44,13 +22,30 @@ export default function World({
     setIsWorldInfoVisible(!isWorldInfoVisible);
   };
 
-  const openModal = (character: Character) => {
+  const openModal = (character: ICharacter) => {
     setSelectedCharacter(character);
     setIsModalOpen(true);
   };
 
   const closeModal = () => {
     setIsModalOpen(false);
+  };
+
+  const formatImageUrl = (imageUrl: string) => {
+    if (imageUrl.startsWith('data:image')) {
+      return imageUrl;
+    }
+    if (imageUrl.includes('jpeg')) {
+      return `data:image/jpeg;base64,${imageUrl}`;
+    }
+    if (imageUrl.includes('jpg')) {
+      return `data:image/jpg;base64,${imageUrl}`;
+    }
+    if (imageUrl.includes('gif')) {
+      return `data:image/gif;base64,${imageUrl}`;
+    }
+    // Default to jpeg if no format is specified
+    return `data:image/jpeg;base64,${imageUrl}`;
   };
 
   return (
@@ -81,7 +76,7 @@ export default function World({
                   onClick={() => openModal(character)}
                 >
                   <img
-                    src={character.imageUrl}
+                    src={formatImageUrl(character.imageUrl)}
                     alt={character.name}
                     className="w-full h-96 object-cover"
                   />
@@ -147,8 +142,8 @@ export default function World({
                   </Dialog.Title>
                   <div className="mt-2">
                     <img
-                      src={selectedCharacter?.imageUrl}
-                      alt={selectedCharacter?.name}
+                      src={formatImageUrl(selectedCharacter?.imageUrl || '')}
+                      alt={selectedCharacter?.name || ''}
                       className="w-full h-64 object-cover rounded-lg"
                     />
                     {selectedCharacter?.background && (
@@ -169,11 +164,11 @@ export default function World({
                         </p>
                       </>
                     )}
-                    {selectedCharacter?.class && (
+                    {selectedCharacter?.char_class && (
                       <>
                         <h4 className="mt-4 text-lg font-semibold">Class</h4>
                         <p className="text-gray-600">
-                          {selectedCharacter.class}
+                          {selectedCharacter.char_class}
                         </p>
                       </>
                     )}
