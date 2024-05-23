@@ -30,9 +30,7 @@ export default function Home() {
           <Spinner size="xl" />
         </div>
       ) : (
-        data?.worlds.map((world) => (
-          <World key={world.title} {...world} />
-        ))
+        data?.worlds.map((world) => <World key={world.title} {...world} />)
       )}
     </DefaultPage>
   );

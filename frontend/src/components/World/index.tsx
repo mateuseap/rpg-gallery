@@ -32,19 +32,19 @@ export default function World({
   };
 
   const formatImageUrl = (imageUrl: string) => {
-    if (imageUrl.startsWith('data:image')) {
+    if (imageUrl.startsWith("data:image")) {
       return imageUrl;
     }
-    if (imageUrl.includes('jpeg')) {
+    if (imageUrl.includes("jpeg")) {
       return `data:image/jpeg;base64,${imageUrl}`;
     }
-    if (imageUrl.includes('jpg')) {
+    if (imageUrl.includes("jpg")) {
       return `data:image/jpg;base64,${imageUrl}`;
     }
-    if (imageUrl.includes('gif')) {
+    if (imageUrl.includes("gif")) {
       return `data:image/gif;base64,${imageUrl}`;
     }
-    // Default to jpeg if no format is specified
+
     return `data:image/jpeg;base64,${imageUrl}`;
   };
 
@@ -142,8 +142,8 @@ export default function World({
                   </Dialog.Title>
                   <div className="mt-2">
                     <img
-                      src={formatImageUrl(selectedCharacter?.imageUrl || '')}
-                      alt={selectedCharacter?.name || ''}
+                      src={formatImageUrl(selectedCharacter?.imageUrl || "")}
+                      alt={selectedCharacter?.name || ""}
                       className="w-full h-64 object-cover rounded-lg"
                     />
                     {selectedCharacter?.background && (
