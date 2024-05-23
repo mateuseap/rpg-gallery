@@ -2,6 +2,7 @@ import { useQuery } from "@tanstack/react-query";
 import DefaultPage from "../../components/DefaultPage";
 import World from "../../components/World";
 import { IWorld } from "../../types";
+import Spinner from "../../components/Spinner";
 
 export default function Home() {
   const { data, isLoading } = useQuery<{ worlds: Array<IWorld> }>({
@@ -24,9 +25,15 @@ export default function Home() {
           </div>
         </div>
       </div>
-      {!isLoading && data?.worlds.map((world) => (
-        <World key={world.title} {...world} />
-      ))}
+      {isLoading ? (
+        <div className="py-4 sm:py-8">
+          <Spinner size="xl" />
+        </div>
+      ) : (
+        data?.worlds.map((world) => (
+          <World key={world.title} {...world} />
+        ))
+      )}
     </DefaultPage>
   );
 }
