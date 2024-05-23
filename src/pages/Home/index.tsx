@@ -1,11 +1,14 @@
 import DefaultPage from "../../components/DefaultPage";
 import World from "../../components/World";
-import arionImageUrl from "../../assets/elaria/arion.jpg";
-import thaliaImageUrl from "../../assets/elaria/thalia.jpg";
-import kaelImageUrl from "../../assets/elaria/kael.jpg";
 import seraphinaImageUrl from "../../assets/elysium/seraphina.gif";
 import alaricImageUrl from "../../assets/elysium/alaric.gif";
 import taliaImageUrl from "../../assets/elysium/talia.gif";
+import akemiImageUrl from "../../assets/neo-recife/akemi.jpeg";
+import jaxImageUrl from "../../assets/neo-recife/jax.jpeg";
+import xartulImageUrl from "../../assets/neo-recife/xartul.jpeg";
+import arionImageUrl from "../../assets/elaria/arion.jpg";
+import thaliaImageUrl from "../../assets/elaria/thalia.jpg";
+import kaelImageUrl from "../../assets/elaria/kael.jpg";
 
 export default function Home() {
   const worlds = [
@@ -71,6 +74,60 @@ export default function Home() {
         }
       ],
       initialWorldInfoVisible: true,
+    },
+    {
+      title: "Neo-Recife",
+      history:
+        "Neo-Recife is a sprawling megacity of neon lights and urban decay, built on old Pernambuco's ruins. Skyscrapers loom over streets plagued by acid rain and crime. Mega-corporations like Arasaka control life through surveillance and propaganda. Digital rebels, or Netrunners, hack networks to fight for freedom. Gangs and cybernetic assassins clash for power, while addictive cyberware blurs the line between human and machine. The legend of the Key, a powerful artifact, promises to overthrow these corporations and liberate the city, driving Netrunners to seek it out and change Neo-Recife's fate.",
+      characters: [
+        {
+          name: "Akemi Sato",
+          description:
+            "A ninja Netrunner of Japanese origin, with short black hair and piercing brown eyes. His slender, muscular body is covered in traditional Japanese tattoos and discreet cybernetic implants. She always wears a form-fitting black outfit, which combines elements of traditional Japanese clothing with cybernetic technology, and carries two cybernetic katanas on her back.",
+          imageUrl: akemiImageUrl,
+          background:
+            "Akemi was born in a small rural village in Japan, but from an early age she felt drawn to the digital world. After the death of her parents in a corporate attack, she fled to Neo-Recife in search of revenge. There, she joined a group of rebel hackers and trained as a Netrunner and ninja. Akemi has become one of the most skilled hackers in the city, using her skills to fight Arasaka and other megacorporations.",
+          race: "Human",
+          class: "Netrunner",
+          strengths: "Intelligent, agile, skilled in hand-to-hand combat and hacking, loyal to his friends, dedicated to justice.",
+          weaknesses: "Impulsive, vindictive, sometimes she acts without thinking about the consequences, she has difficulty trusting new people.",
+        },
+        {
+          name: 'Jax "Metalhead" Stone',
+          description:
+            'Jax "Metalhead" Stone is an American-born cyborg mercenary with a body composed almost entirely of metal. His face is a cybernetic mask with glowing red eyes, and he has metallic arms and legs that give him superhuman strength. Jax always wears a black leather jacket and carries an arsenal of firearms and bladed weapons.',
+          imageUrl: jaxImageUrl,
+          background:
+            "Jax was a soldier in the American military who was seriously injured in a war against megacorporations. To save his life, he was subjected to a cybernetization process, which transformed him into a cyborg. Jax became a mercenary, using his skills for the highest bidder. He is known for his brutality and efficiency, but he also has his own code of honor and always protects the innocent.",
+          race: "Human (Cyborg)",
+          class: "Mercenary",
+          strengths: "Strong, resilient, skilled in combat, loyal to his principles, protector of the innocent.",
+          weaknesses: "Reckless, impulsive, prone to violence, has difficulty connecting with other people.",
+        },
+        {
+          name: "Xar'tul",
+          description:
+            "Xar'tul is an alien hacker of unknown origin. It has an insectoid appearance, with green skin, large, glowing eyes, and several antennae on its head. Xar'tul is small and thin, but has a keen intelligence and an incredible capacity for technological manipulation. He always wears a dark green cloak and carries a holographic datapad.",
+          imageUrl: xartulImageUrl,
+          background:
+            "Xar'tul arrived on Earth in a mysterious spaceship and quickly adapted to life on Neo-Reef. He became a talented hacker, using his skills to steal information from megacorporations and sell it to the highest bidder. Xar'tul is motivated by profit, but he also has a sense of justice and sometimes uses his abilities to help those in need.",
+          race: "Alien",
+          class: "Hacker",
+          strengths: "Intelligent, skilled in hacking, creative, independent, defender of those in need.",
+          weaknesses: "Arrogant, greedy, suspicious of other people, he has difficulty integrating into human society.",
+        },
+      ],
+      ais: [
+        {
+          name: "Gemini",
+          description: "Used to generate the history of Neo-Recife and all of its characters."
+        },
+        {
+          name: "Civitai",
+          description: "Used to generate the images of Neo-Recife characters, using the ToonYou model."
+        }
+      ],
+      initialWorldInfoVisible: false,
     },
     {
       title: "Elaria - The Shattered Realms",
