@@ -15,7 +15,23 @@ export interface ICharacter {
 export interface IWorld {
     title: string;
     history: string;
-    characters: Character[];
+    characters: ICharacter[];
     ais: Array<{ name: string; description: string }>;
     initialWorldInfoVisible?: boolean;
 }
+
+export type Sizes =
+	| 'xs'
+	| 'sm'
+	| 'md'
+	| 'lg'
+	| 'xl'
+	| '2xl'
+	| '3xl'
+	| '4xl'
+	| '5xl'
+	| '6xl'
+	| '7xl'
+	| '8xl'
+	| '9xl'
+	| '10xl';
