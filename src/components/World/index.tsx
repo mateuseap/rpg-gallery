@@ -52,7 +52,7 @@ export default function World({
   };
 
   return (
-    <div className="py-8 sm:py-14">
+    <div className="py-4 sm:py-8">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div
           className="flex items-center text-2xl font-bold mb-4 text-black cursor-pointer"
