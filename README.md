@@ -1,5 +1,8 @@
 # RPG Gallery
 
+![Vercel Deploy](https://deploy-badge.vercel.app/vercel/rpg-gallery)
+![Render Deploy](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Frender-deploy-status-latest-ug62.onrender.com%2Fsrv-cp7sfpkf7o1s73ekk6n0%3Fkey%3DZn7J-8K0wS4&query=%24.status&style=flat&logo=Render&label=Render)
+
 A gallery of RPG worlds and characters made using artificial intelligence!
 
 ## Prerequisites
@@ -61,4 +64,4 @@ The backend will be accessible locally at http://localhost:5000. The ``--debug``
 
 ### Deploy
 
-The deploy will be automatically done when you update the `main` branch.
+The deploy will be automatically done by Render when you update the `main` branch.
