@@ -38,6 +38,8 @@ npm run build
 
 After this, you can deploy the frontend by pushing your changes to the `main` branch, then the deploy will be done automatically by Vercel.
 
+Available at: https://rpg-gallery.vercel.app
+
 ## Backend
 
 ### Setup and Run
@@ -65,3 +67,5 @@ The backend will be accessible locally at http://localhost:5000. The ``--debug``
 ### Deploy
 
 The deploy will be automatically done by Render when you update the `main` branch.
+
+Available at: https://rpg-gallery.onrender.com 
