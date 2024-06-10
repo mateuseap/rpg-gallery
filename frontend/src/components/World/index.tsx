@@ -10,6 +10,7 @@ export default function World({
   characters,
   ais,
   initialWorldInfoVisible = false,
+  externalLink,
 }: IWorld) {
   const [isWorldInfoVisible, setIsWorldInfoVisible] = useState(
     initialWorldInfoVisible
@@ -188,6 +189,16 @@ export default function World({
                         </h4>
                         <p className="text-gray-600">
                           {selectedCharacter.realm}
+                        </p>
+                      </>
+                    )}
+                    {selectedCharacter?.domain && (
+                      <>
+                        <h4 className="mt-4 text-lg font-semibold">
+                          {language == "en" ? "Domain" : "Domínio"}
+                        </h4>
+                        <p className="text-gray-600">
+                          {selectedCharacter.domain}
                         </p>
                       </>
                     )}

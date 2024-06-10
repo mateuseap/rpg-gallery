@@ -6,6 +6,7 @@ export interface ICharacter {
   race?: string;
   char_class?: string;
   realm?: string;
+  domain?: string;
   appearance?: string;
   personality?: string;
   strengths?: string;
@@ -19,6 +20,7 @@ export interface IWorld {
   characters: ICharacter[];
   ais: Array<{ name: string; description: string }>;
   initialWorldInfoVisible?: boolean;
+  externalLink?: string;
 }
 
 export type Tab = {
