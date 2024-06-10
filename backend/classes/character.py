@@ -8,6 +8,7 @@ class Character:
         race=None,
         char_class=None,
         realm=None,
+        domain=None,
         appearance=None,
         personality=None,
         strengths=None,
@@ -20,6 +21,7 @@ class Character:
         self.race = race
         self.char_class = char_class
         self.realm = realm
+        self.domain = domain
         self.appearance = appearance
         self.personality = personality
         self.strengths = strengths

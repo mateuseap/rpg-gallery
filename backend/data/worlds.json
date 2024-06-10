@@ -1,5 +1,90 @@
 [
     {
+      "language": "pt-br",
+      "title":"Calgar",
+      "history":"No sistema planetário de Calgar, cinco mundos místicos guardam segredos antigos. Você deve desvendar mistérios, enfrentar facções sombrias e descobrir a tecnologia Aetherium. Embarque em uma jornada épica por florestas luminescentes, oceanos profundos, selvas exuberantes, vulcões ardentes e cidades celestiais. Nas Ruínas de Solara, a entidade Solara e o Aetherium aguardam, enquanto forças sombrias ameaçam desencadear um poder devastador. Suas escolhas e alianças determinarão o futuro de Calgar.",
+      "characters":[
+          {
+            "name":"Os Devotos da Escuridão",
+            "description":"Os Devotos da Escuridão são uma facção sombria unida pelo desejo de reativar o Aetherium e usar seu poder para fins destrutivos.",
+            "imageUrl":"devotosImageUrl",
+            "background":"Esta facção é composta por membros de várias raças, unidos por um objetivo nefasto de controle e destruição.",
+            "race":"Humanos, Elfos e outros",
+            "char_class":"Combinam tecnologia avançada corrompida e magia sombria",
+            "domain":"Sua influência se estende por todo o universo",
+            "appearance":"Cada membro da facção exibe características únicas, refletindo sua diversidade de origens e habilidades sombrias.",
+            "personality":"Eles são determinados e implacáveis, dispostos a fazer qualquer coisa para alcançar seus objetivos de controle e destruição, não importa o custo."
+          },
+          {
+            "name":"Os Guardiões de Solara",
+            "description":"Os Guardiões de Solara são uma ordem secreta de sábios e guerreiros dedicados a proteger os segredos do Aetherium e manter o equilíbrio no universo.",
+            "imageUrl":"guardioesImageUrl",
+            "background":"Os membros da ordem têm origens diversas, mas compartilham uma dedicação comum em preservar a ordem cósmica.",
+            "race":"Humanos, Elfos e outros",
+            "char_class":"Sábios e Guerreiros",
+            "domain":"Sua missão abrange todo o universo",
+            "appearance":"Os Guardiões exibem uma variedade de vestimentas e armaduras, refletindo suas origens diversas, mas todos eles irradiam uma aura de sabedoria e determinação.",
+            "personality":"Eles são corajosos, sábios e dedicados, dispostos a enfrentar qualquer desafio em nome da paz e harmonia cósmica."
+          },
+          {
+            "name":"Talon Blackwing: O Mercenário Interplanetário",
+            "description":"Talon Blackwing, um anti-herói cativante e perigoso, exibe uma beleza marcante e um olhar penetrante de cor vermelho flamejante.",
+            "imageUrl":"talonBlackwingImageUrl",
+            "background":"Talon é um mercenário interplanetário, criado nas sombras do submundo de Elaria, onde aprendeu a sobreviver através da astúcia e da manipulação.",
+            "race":"Meio-Elfo",
+            "char_class":"Mestre da persuasão e Habilidoso combatente",
+            "domain":"Opera em todo o universo",
+            "appearance":"Talon exibe uma beleza marcante, com olhos de cor vermelho flamejante que hipnotizam aqueles que o encaram. Seu visual mescla elementos de diferentes raças de Elaria, criando uma aura única e intrigante ao seu redor.",
+            "personality":"Astuto, oportunista e charmoso, Talon é capaz de seduzir e manipular com facilidade. Suas motivações são guiadas pelo desejo de lucro e poder, mas sua lealdade é sempre negociável, dependendo do preço que está disposto a pagar."
+          },
+          {
+            "name":"Drakon Forgefire",
+            "description":"Drakon Forgefire, o imponente líder Ignis de Pyros, destaca-se com suas escamas brilhantes e musculatura robusta, refletindo o calor ardente de seu planeta.",
+            "imageUrl":"drakonImageUrl",
+            "background":"Drakon foi criado entre as fornalhas fumegantes de Pyros, aprendendo desde cedo os segredos da metalurgia e da forja. Ele ascendeu à posição de líder comunitário, comprometido com a segurança e o fortalecimento de seu povo.",
+            "race":"Ignis",
+            "char_class":"Mestre Ferreiro",
+            "domain":"Pyros",
+            "appearance":"Drakon possui escamas brilhantes e avermelhadas, olhos laranja incandescente e uma armadura de placas metálicas esculpidas com símbolos ancestrais. Ele carrega um grande martelo de forja, símbolo de sua maestria como ferreiro.",
+            "personality":"Ele exibe uma postura orgulhosa, mas justa, comprometido com a segurança e o fortalecimento de seu povo. Determinado e poderoso, Drakon é respeitado como líder comunitário."
+          },
+          {
+            "name":"Nyra Evergreen",
+            "description":"Nyra Evergreen é uma líder sábia e venerada entre os Druiden de Verdantia, cuja presença emana uma serenidade que ecoa através das selvas exuberantes.",
+            "imageUrl":"nyraImageUrl",
+            "background":"Nyra foi criada nas densas selvas de Verdantia, onde aprendeu desde cedo os segredos da magia da natureza.",
+            "race":"Druiden",
+            "char_class":"Xamã",
+            "domain":"Verdantia",
+            "appearance":"Ela possui olhos profundos da cor das folhas verdes exuberantes, vestida com trajes adornados com folhas e galhos entrelaçados, e carrega consigo um cajado de madeira antiga esculpido com runas druídicas ancestrais.",
+            "personality":"Nyra é sábia, serena e determinada, sempre guiando seu povo com compaixão e protegendo as maravilhas naturais de Verdantia."
+          },
+          {
+            "name":"Kael Thalassa",
+            "description":"Kael Thalassa, líder dos Aquarianos, irradia determinação e lealdade enquanto emerge das profundezas oceânicas, cercado pela aura misteriosa das águas abissais.",
+            "imageUrl":"kaelThalassaImageUrl",
+            "background":"Kael nasceu e foi criado nas profundezas do oceano, onde aprendeu desde cedo a importância da proteção de Aquaria e de seus segredos submersos.",
+            "race":"Aquariano",
+            "char_class":"Protetor de Aquaria",
+            "domain":"Aquaria",
+            "appearance":"Kael é retratado usando uma armadura adornada com símbolos ancestrais, refletindo sua posição como líder e guardião de seu povo. Seu olhar sério e determinado revela sua determinação em proteger Aquaria.",
+            "personality":"Ele é sério, leal e protetor, dedicado à segurança e ao bem-estar de seu povo e de seu reino submarino."
+          }
+      ],
+      "ais":[
+          {
+            "name":"GPT-4o",
+            "description":"Usado para gerar toda a história e descrições de cenários, personagens e artefatos. Além dos prompts para geração de imagem."
+          },
+          {
+            "name":"Playground.IA",
+            "description":"Usado para gerar as imagens dos cenários, personagens e artefatos."
+          }
+      ],
+      "initialWorldInfoVisible":true,
+      "externalLink": "https://efficient-narcissus-729.notion.site/Calgar-766692e230204d3dae7c861ec460118a"
+    },
+    {
        "language": "en",
        "title":"Elysium",
        "history":"Elysium is a realm where magic and technology coexist in harmony, with towering cities and sprawling forests. The land is ruled by a council of mages and scholars, who maintain balance and peace among the various races that inhabit the world. Despite the tranquility, dark forces lurk in the shadows, threatening to upset the harmony of Elysium.",
