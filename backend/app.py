@@ -1,4 +1,4 @@
-from flask import Flask, jsonify
+from flask import Flask, request, jsonify
 from flask_cors import CORS
 from data.instance import worlds_json
 
@@ -13,7 +13,9 @@ def hello_world():
 
 @app.route("/worlds")
 def get_worlds():
-    response = {"worlds": worlds_json}
+    language = request.args.get("language")
+    selected_worlds = [world for world in worlds_json if world["language"] == language]
+    response = {"worlds": selected_worlds}
     return jsonify(response)
 
 

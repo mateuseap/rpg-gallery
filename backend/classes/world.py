@@ -3,7 +3,8 @@ from .ai import AI
 
 
 class World:
-    def __init__(self, title, history, characters, ais, initialWorldInfoVisible):
+    def __init__(self, language, title, history, characters, ais, initialWorldInfoVisible):
+        self.language = language
         self.title = title
         self.history = history
 
@@ -13,6 +14,7 @@ class World:
 
     def to_dict(self):
         return {
+            "language": self.language,
             "title": self.title,
             "history": self.history,
             "characters": [char.to_dict() for char in self.characters],

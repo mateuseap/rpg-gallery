@@ -1,5 +1,6 @@
 [
     {
+       "language": "en",
        "title":"Elysium",
        "history":"Elysium is a realm where magic and technology coexist in harmony, with towering cities and sprawling forests. The land is ruled by a council of mages and scholars, who maintain balance and peace among the various races that inhabit the world. Despite the tranquility, dark forces lurk in the shadows, threatening to upset the harmony of Elysium.",
        "characters":[
@@ -50,6 +51,7 @@
        "initialWorldInfoVisible":true
     },
     {
+       "language": "en",
        "title":"Neo-Recife",
        "history":"Neo-Recife is a sprawling megacity of neon lights and urban decay, built on old Pernambuco's ruins. Skyscrapers loom over streets plagued by acid rain and crime. Mega-corporations like Arasaka control life through surveillance and propaganda. Digital rebels, or Netrunners, hack networks to fight for freedom. Gangs and cybernetic assassins clash for power, while addictive cyberware blurs the line between human and machine. The legend of the Key, a powerful artifact, promises to overthrow these corporations and liberate the city, driving Netrunners to seek it out and change Neo-Recife's fate.",
        "characters":[
@@ -97,6 +99,7 @@
        "initialWorldInfoVisible":false
     },
     {
+       "language": "en",
        "title":"Elaria - The Shattered Realms",
        "history":"Elaria was once a unified world, a grand empire where magic flowed freely and technological marvels flourished. However, a cataclysmic event known as the Shattering splintered the realm into floating islands and divided it into three distinct environments: the Arcane Spires, the Verdant Wilds, and the Shadowlands. These realms hover in the sky, connected by ancient portals and traversable by airships.",
        "characters":[
