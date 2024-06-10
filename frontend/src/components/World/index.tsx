@@ -232,6 +232,16 @@ export default function World({
                         </p>
                       </>
                     )}
+                    {selectedCharacter?.habilities && (
+                      <>
+                        <h4 className="mt-4 text-lg font-semibold">
+                          {language == "en" ? "Habilities" : "Habilidades"}
+                        </h4>
+                        <p className="text-gray-600">
+                          {selectedCharacter.habilities}
+                        </p>
+                      </>
+                    )}
                     {selectedCharacter?.personality && (
                       <>
                         <h4 className="mt-4 text-lg font-semibold">

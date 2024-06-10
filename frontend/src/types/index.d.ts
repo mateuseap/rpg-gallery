@@ -13,6 +13,7 @@ export interface ICharacter {
   personality?: string;
   strengths?: string;
   weaknesses?: string;
+  habilities?: string;
 }
 
 export interface IWorld {
