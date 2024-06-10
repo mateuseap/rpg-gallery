@@ -15,6 +15,7 @@ class Character:
         personality=None,
         strengths=None,
         weaknesses=None,
+        habilities=None,
     ):
         self.name = name
         self.description = description
@@ -30,6 +31,7 @@ class Character:
         self.personality = personality
         self.strengths = strengths
         self.weaknesses = weaknesses
+        self.habilities = habilities
 
     def to_dict(self):
         return self.__dict__

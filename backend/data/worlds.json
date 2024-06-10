@@ -86,6 +86,46 @@
     },
     {
       "language": "pt-br",
+      "title":"Recife 2099: Neon e Sombras",
+      "history":"Em um futuro onde a tecnologia domina, Recife é uma metrópole dividida entre luxo e miséria. As megacorporações controlam a cidade com implantes cibernéticos e vigilância constante, enquanto a resistência luta por liberdade nas sombras. Lucas \"Spectro\" Silva, um hacker mercenário da Favela da Lata, usa suas habilidades para desafiar as corporações e apoiar os marginalizados. Quando a NeoPlex desenvolve uma tecnologia de controle mental, Spectro e seus aliados precisam agir rapidamente para impedir uma catástrofe e libertar a cidade da opressão tecnológica.",
+      "characters":[
+          {
+            "name":"Marina \"Vapor\" Costa",
+            "description": "Sou uma mestra em dispositivos de infiltração e sabotagem, e meu codinome vem da minha capacidade de desaparecer sem deixar rastro, como vapor no ar.",
+            "imageUrl":"vaporImageUrl",
+            "background":"Meu nome é Marina Costa, mas na rede e nas ruas, sou conhecida como Vapor. Nasci e cresci na Zona Média, onde os sonhos de inovação colidem com a dura realidade. Meu pai era um engenheiro brilhante que trabalhava para uma das corporações, até que um acidente 'misterioso' o levou embora. Desde então, jurei desvendar as mentiras das megacorporações e fazer justiça.",
+            "habilities": "Invasão de sistemas de alta segurança, manipulação de dados sigilosos, controle de drones e dispositivos remotos. Além disso, desativação de sistemas de vigilância, criptografia e decodificação de redes protegidas."
+          },
+          {
+            "name":"João \"Cipher\" Oliveira",
+            "description":"Sou um mercenário, um fantasma digital que se move entre códigos e redes, lutando por uma vida melhor para mim e para os meus.",
+            "imageUrl":"cipherImageUrl",
+            "background":"Me chamo João Oliveira, mas no submundo digital todos me conhecem como Cipher. Cresci na Favela da Lata, um lugar onde a tecnologia é tão improvisada quanto nossa sobrevivência diária. Desde pequeno, fui fascinado por computadores e redes, desmontando qualquer aparelho que conseguisse encontrar. Aos 12 anos, hackeei meu primeiro sistema de segurança — uma façanha que me fez ganhar respeito e alguns inimigos.",
+            "habilities": "Experiência em invasão de sistemas, criação de backdoors, e sabotagem de redes corporativas. Além disso, controle remoto de drones, câmeras e outros dispositivos de vigilância."
+          },
+          {
+            "name":"Rafael \"Sombra\" Silva",
+            "description":"Sou um mercenário digital, vendendo meus serviços para o melhor lance. Vivo nas sombras, sempre um passo à frente da lei e das megacorporações que tentam controlar cada pedaço desta cidade.",
+            "imageUrl":"sombraImageUrl",
+            "background":"Me chamam de Rafael Silva, mas no submundo das ruas, sou conhecido como Sombra. Cresci nas entranhas sombrias da cidade, onde a tecnologia e o crime se entrelaçam em uma dança perigosa. Perdi meus pais cedo para a violência urbana, o que me empurrou para as ruas",
+            "habilities": "Invasão de sistemas complexos, criptografia e decodificação avançadas e manipulação de dados e informações." 
+         }
+      ],
+      "ais":[
+          {
+            "name":"GPT-4o",
+            "description":"Usado para gerar toda a história do RPG, personagens e artefatos."
+          },
+          {
+            "name":"Copilot",
+            "description":"Usado para gerar as imagens dos personagens, mapas e afins."
+          }
+      ],
+      "initialWorldInfoVisible":false,
+      "externalLink": "https://freckle-planarian-24b.notion.site/Mundo-novo-Criatividade-Fazer-hj-e48735235ca242f78e5618f1e0cab74c"
+    },
+    {
+      "language": "pt-br",
       "title":"Runeterra",
       "history":"Bem-vindos ao mundo de Runeterra, onde cada região guarda segredos antigos e poderes misteriosos. Vocês, aventureiros, começam sua jornada na fronteira entre Demacia e Noxus, um território em constante conflito. As tensões estão altas e rumores falam de uma nova ameaça emergindo das sombras. Cabe a vocês decidir o destino destas terras e, talvez, de todo o mundo...",
       "characters":[
