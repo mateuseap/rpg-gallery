@@ -20,6 +20,17 @@ export interface IWorld {
   initialWorldInfoVisible?: boolean;
 }
 
+export type Tab = {
+  label: string;
+  value: string;
+};
+
+export interface ITabs {
+  tabs: Tab[];
+  selectedTab: string;
+  onChange: (value: string) => void;
+};
+
 export type Sizes =
   | "xs"
   | "sm"
