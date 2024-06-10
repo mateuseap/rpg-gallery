@@ -10,6 +10,8 @@ class Character:
         realm=None,
         domain=None,
         appearance=None,
+        motivations=None,
+        objectives=None,
         personality=None,
         strengths=None,
         weaknesses=None,
@@ -23,6 +25,8 @@ class Character:
         self.realm = realm
         self.domain = domain
         self.appearance = appearance
+        self.motivations = motivations
+        self.objectives = objectives
         self.personality = personality
         self.strengths = strengths
         self.weaknesses = weaknesses

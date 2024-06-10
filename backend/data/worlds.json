@@ -85,6 +85,49 @@
       "externalLink": "https://efficient-narcissus-729.notion.site/Calgar-766692e230204d3dae7c861ec460118a"
     },
     {
+      "language": "pt-br",
+      "title":"Runeterra",
+      "history":"Bem-vindos ao mundo de Runeterra, onde cada região guarda segredos antigos e poderes misteriosos. Vocês, aventureiros, começam sua jornada na fronteira entre Demacia e Noxus, um território em constante conflito. As tensões estão altas e rumores falam de uma nova ameaça emergindo das sombras. Cabe a vocês decidir o destino destas terras e, talvez, de todo o mundo...",
+      "characters":[
+          {
+            "name":"Garen Crownguard",
+            "description":"Um líder militar de Demacia, conhecido por sua bravura e força em batalha. Garen auxilia os jogadores na formação da aliança.",
+            "imageUrl":"garenImageUrl",
+            "motivations":"Proteger Demacia e seus ideais de justiça e ordem.",
+            "objectives":"Unir forças com outras nações para combater a ameaça de Viego, mesmo que isso vá contra seus instintos.",
+            "personality":"Honorável, leal, rígido"
+          },
+          {
+            "name":"LeBlanc",
+            "description":"A misteriosa manipuladora de Noxus, LeBlanc joga nos bastidores, utilizando ilusões e intrigas para atingir seus objetivos.",
+            "imageUrl":"leBlancImageUrl",
+            "motivations":"Usar o caos causado por Viego para fortalecer a Rosa Negra.",
+            "objectives":"Sabotar os esforços dos jogadores e manter o equilíbrio de poder favorável à Rosa Negra.",
+            "personality":"Manipuladora, enigmática, ambiciosa."
+          },
+          {
+            "name":"Swain",
+            "description":"O líder visionário de Noxus, Swain é um estrategista formidável que valoriza o poder e a força. Sua aliança com os jogadores é baseada na conveniência.",
+            "imageUrl":"swainImageUrl",
+            "motivations":"Expandir o poder de Noxus e eliminar ameaças ao império.",
+            "objectives":"Pode se aliar aos jogadores se acreditar que a ameaça de Viego é grande o suficiente para justificar uma aliança temporária.",
+            "personality":"Calculista, ambicioso, estrategista."
+          }
+      ],
+      "ais":[
+          {
+            "name":"GPT-4o",
+            "description":"Usado para gerar toda a história do RPG, personagens e artefatos. Além dos prompts para geração de imagem."
+          },
+          {
+            "name":"Artbreeder",
+            "description":"Usado para gerar as imagens dos personagens."
+          }
+      ],
+      "initialWorldInfoVisible":false,
+      "externalLink": "https://drive.google.com/drive/u/0/folders/19rVD9fvZBuO6DpuC31ATUrSddPTEP3sJ"
+    },
+    {
        "language": "en",
        "title":"Elysium",
        "history":"Elysium is a realm where magic and technology coexist in harmony, with towering cities and sprawling forests. The land is ruled by a council of mages and scholars, who maintain balance and peace among the various races that inhabit the world. Despite the tranquility, dark forces lurk in the shadows, threatening to upset the harmony of Elysium.",
