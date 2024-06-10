@@ -8,6 +8,8 @@ export interface ICharacter {
   realm?: string;
   domain?: string;
   appearance?: string;
+  motivations?: string;
+  objectives?: string;
   personality?: string;
   strengths?: string;
   weaknesses?: string;

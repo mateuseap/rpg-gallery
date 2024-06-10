@@ -212,6 +212,26 @@ export default function World({
                         </p>
                       </>
                     )}
+                    {selectedCharacter?.motivations && (
+                      <>
+                        <h4 className="mt-4 text-lg font-semibold">
+                          {language == "en" ? "Motivations" : "Motivações"}
+                        </h4>
+                        <p className="text-gray-600">
+                          {selectedCharacter.motivations}
+                        </p>
+                      </>
+                    )}
+                    {selectedCharacter?.objectives && (
+                      <>
+                        <h4 className="mt-4 text-lg font-semibold">
+                          {language == "en" ? "Objectives" : "Objetivos"}
+                        </h4>
+                        <p className="text-gray-600">
+                          {selectedCharacter.objectives}
+                        </p>
+                      </>
+                    )}
                     {selectedCharacter?.personality && (
                       <>
                         <h4 className="mt-4 text-lg font-semibold">
