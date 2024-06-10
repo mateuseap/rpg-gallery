@@ -4,6 +4,7 @@ import { Dialog, Transition } from "@headlessui/react";
 import { ICharacter, IWorld } from "../../types";
 
 export default function World({
+  language,
   title,
   history,
   characters,
@@ -66,7 +67,9 @@ export default function World({
           <div className="bg-white bg-opacity-50 shadow-md rounded-lg p-6">
             <p className="text-gray-600 mb-6">{history}</p>
             <h2 className="text-xl font-semibold mb-6 text-black">
-              Character Previews
+              {language == "en"
+                ? "Character Previews"
+                : "Prévias de Personagens"}
             </h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mb-6">
               {characters.map((character) => (
@@ -90,7 +93,9 @@ export default function World({
               ))}
             </div>
             <h2 className="text-xl font-semibold mb-6 text-black">
-              AIs used in this world
+              {language == "en"
+                ? "AIs used in this world"
+                : "IAs utilizadas neste mundo"}
             </h2>
             <div>
               {ais.map((ai) => (
@@ -149,7 +154,7 @@ export default function World({
                     {selectedCharacter?.background && (
                       <>
                         <h4 className="mt-4 text-lg font-semibold">
-                          Background
+                          {language == "en" ? "Background" : "História"}
                         </h4>
                         <p className="text-gray-600">
                           {selectedCharacter.background}
@@ -158,7 +163,9 @@ export default function World({
                     )}
                     {selectedCharacter?.race && (
                       <>
-                        <h4 className="mt-4 text-lg font-semibold">Race</h4>
+                        <h4 className="mt-4 text-lg font-semibold">
+                          {language == "en" ? "Race" : "Raça"}
+                        </h4>
                         <p className="text-gray-600">
                           {selectedCharacter.race}
                         </p>
@@ -166,7 +173,9 @@ export default function World({
                     )}
                     {selectedCharacter?.char_class && (
                       <>
-                        <h4 className="mt-4 text-lg font-semibold">Class</h4>
+                        <h4 className="mt-4 text-lg font-semibold">
+                          {language == "en" ? "Class" : "Classe"}
+                        </h4>
                         <p className="text-gray-600">
                           {selectedCharacter.char_class}
                         </p>
@@ -174,7 +183,9 @@ export default function World({
                     )}
                     {selectedCharacter?.realm && (
                       <>
-                        <h4 className="mt-4 text-lg font-semibold">Realm</h4>
+                        <h4 className="mt-4 text-lg font-semibold">
+                          {language == "en" ? "Realm" : "Reino"}
+                        </h4>
                         <p className="text-gray-600">
                           {selectedCharacter.realm}
                         </p>
@@ -183,7 +194,7 @@ export default function World({
                     {selectedCharacter?.appearance && (
                       <>
                         <h4 className="mt-4 text-lg font-semibold">
-                          Appearance
+                          {language == "en" ? "Appearance" : "Aparência"}
                         </h4>
                         <p className="text-gray-600">
                           {selectedCharacter.appearance}
@@ -193,7 +204,7 @@ export default function World({
                     {selectedCharacter?.personality && (
                       <>
                         <h4 className="mt-4 text-lg font-semibold">
-                          Personality
+                          {language == "en" ? "Personality" : "Personalidade"}
                         </h4>
                         <p className="text-gray-600">
                           {selectedCharacter.personality}
@@ -203,7 +214,7 @@ export default function World({
                     {selectedCharacter?.strengths && (
                       <>
                         <h4 className="mt-4 text-lg font-semibold">
-                          Strengths
+                          {language == "en" ? "Strengths" : "Forças"}
                         </h4>
                         <p className="text-gray-600">
                           {selectedCharacter.strengths}
@@ -213,7 +224,7 @@ export default function World({
                     {selectedCharacter?.weaknesses && (
                       <>
                         <h4 className="mt-4 text-lg font-semibold">
-                          Weaknesses
+                          {language == "en" ? "Weaknesses" : "Fraquezas"}
                         </h4>
                         <p className="text-gray-600">
                           {selectedCharacter.weaknesses}
@@ -227,7 +238,7 @@ export default function World({
                       className="inline-flex justify-center px-4 py-2 text-sm font-medium text-blue-900 bg-blue-100 border border-transparent rounded-md hover:bg-blue-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-blue-500"
                       onClick={closeModal}
                     >
-                      Close
+                      {language == "en" ? "Close" : "Fechar"}
                     </button>
                   </div>
                 </Dialog.Panel>

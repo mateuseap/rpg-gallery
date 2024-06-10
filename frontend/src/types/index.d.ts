@@ -13,6 +13,7 @@ export interface ICharacter {
 }
 
 export interface IWorld {
+  language: string;
   title: string;
   history: string;
   characters: ICharacter[];
