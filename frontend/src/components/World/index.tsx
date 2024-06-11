@@ -95,7 +95,9 @@ export default function World({
                       <h3 className="text-xl font-bold text-black">
                         {character.name}
                       </h3>
-                      <p className="text-gray-600 flex-grow">{character.description}</p>
+                      <p className="text-gray-600 flex-grow">
+                        {character.description}
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -106,39 +108,39 @@ export default function World({
                 <h2 className="text-xl font-semibold mb-6 text-black">
                   {language == "en" ? "Soundtrack" : "Trilha Sonora"}
                 </h2>
-                <div>
-                  <div className="mb-4">
-                    <h3 className="text-lg font-semibold text-black">
+                <div className="space-y-6">
+                  <div className="bg-gray-800 shadow-lg rounded-lg overflow-hidden p-4">
+                    <h3 className="text-lg font-semibold text-white">
                       Professor Atticus Gearheart - The Clockwork Inventor
                     </h3>
-                    <audio controls className="w-[50%] mt-2 ml-2">
+                    <audio controls className="w-full mt-2">
                       <source src={AtticusSoundTrack} type="audio/mp3" />
                       Your browser does not support the audio element.
                     </audio>
                   </div>
-                  <div className="mb-4">
-                    <h3 className="text-lg font-semibold text-black">
+                  <div className="bg-gray-800 shadow-lg rounded-lg overflow-hidden p-4">
+                    <h3 className="text-lg font-semibold text-white">
                       Lord Cedric Thorne - The Aristocratic Alchemist
                     </h3>
-                    <audio controls className="w-[50%] mt-2 ml-2">
+                    <audio controls className="w-full mt-2">
                       <source src={CedricSoundTrack} type="audio/mp3" />
                       Your browser does not support the audio element.
                     </audio>
                   </div>
-                  <div className="mb-4">
-                    <h3 className="text-lg font-semibold text-black">
+                  <div className="bg-gray-800 shadow-lg rounded-lg overflow-hidden p-4">
+                    <h3 className="text-lg font-semibold text-white">
                       Elara Voss - The Aeronaut Adventurer
                     </h3>
-                    <audio controls className="w-[50%] mt-2 ml-2">
+                    <audio controls className="w-full mt-2">
                       <source src={ElaraSoundTrack} type="audio/mp3" />
                       Your browser does not support the audio element.
                     </audio>
                   </div>
-                  <div className="mb-4">
-                    <h3 className="text-lg font-semibold text-black">
+                  <div className="bg-gray-800 shadow-lg rounded-lg overflow-hidden p-4">
+                    <h3 className="text-lg font-semibold text-white">
                       Seraphina Blackwood - The Rogue Mechanic
                     </h3>
-                    <audio controls className="w-[50%] mt-2 ml-2">
+                    <audio controls className="w-full mt-2">
                       <source src={SeraphinaSoundTrack} type="audio/mp3" />
                       Your browser does not support the audio element.
                     </audio>
