@@ -6,6 +6,15 @@ import AtticusSoundTrack from "../../assets/soundtrack/valoria/atticus.mp3";
 import CedricSoundTrack from "../../assets/soundtrack/valoria/cedric.mp3";
 import ElaraSoundTrack from "../../assets/soundtrack/valoria/elara.mp3";
 import SeraphinaSoundTrack from "../../assets/soundtrack/valoria/seraphina.mp3";
+import DarianBackgroundNarrative from "../../assets/narratives/aetheris/darian.ogg";
+import ElysiaBackgroundNarrative from "../../assets/narratives/aetheris/elysia.ogg";
+import KaelenBackgroundNarrative from "../../assets/narratives/aetheris/kaelen.ogg";
+import KorrakBackgroundNarrative from "../../assets/narratives/aetheris/korrak.ogg";
+import LioraBackgroundNarrative from "../../assets/narratives/aetheris/liora.ogg";
+import LysaraBackgroundNarrative from "../../assets/narratives/aetheris/lysara.ogg";
+import RivenBackgroundNarrative from "../../assets/narratives/aetheris/riven.ogg";
+import ThaliaBackgroundNarrative from "../../assets/narratives/aetheris/thalia.ogg";
+import ThalorinBackgroundNarrative from "../../assets/narratives/aetheris/thalorin.ogg";
 
 export default function World({
   language,
@@ -148,6 +157,119 @@ export default function World({
                 </div>
               </>
             )}
+            {title == "Aetheris" && (
+              <>
+                <h2 className="text-xl font-semibold mb-6 text-black">
+                  {language === "en"
+                    ? "Background Narratives"
+                    : "Narrativas de Fundo"}
+                </h2>
+                <div className="space-y-6">
+                  <div className="bg-gray-800 shadow-lg rounded-lg overflow-hidden p-4">
+                    <h3 className="text-lg font-semibold text-white">
+                      Darian Blackthorn's Narrative
+                    </h3>
+                    <audio controls className="w-full mt-2">
+                      <source
+                        src={DarianBackgroundNarrative}
+                        type="audio/ogg"
+                      />
+                      Your browser does not support the audio element.
+                    </audio>
+                  </div>
+                  <div className="bg-gray-800 shadow-lg rounded-lg overflow-hidden p-4">
+                    <h3 className="text-lg font-semibold text-white">
+                      Elysia Stormrider's Narrative
+                    </h3>
+                    <audio controls className="w-full mt-2">
+                      <source
+                        src={ElysiaBackgroundNarrative}
+                        type="audio/ogg"
+                      />
+                      Your browser does not support the audio element.
+                    </audio>
+                  </div>
+                  <div className="bg-gray-800 shadow-lg rounded-lg overflow-hidden p-4">
+                    <h3 className="text-lg font-semibold text-white">
+                      Kaelen Ironfist's Narrative
+                    </h3>
+                    <audio controls className="w-full mt-2">
+                      <source
+                        src={KaelenBackgroundNarrative}
+                        type="audio/ogg"
+                      />
+                      Your browser does not support the audio element.
+                    </audio>
+                  </div>
+                  <div className="bg-gray-800 shadow-lg rounded-lg overflow-hidden p-4">
+                    <h3 className="text-lg font-semibold text-white">
+                      Korrak Stonebreaker's Narrative
+                    </h3>
+                    <audio controls className="w-full mt-2">
+                      <source
+                        src={KorrakBackgroundNarrative}
+                        type="audio/ogg"
+                      />
+                      Your browser does not support the audio element.
+                    </audio>
+                  </div>
+                  <div className="bg-gray-800 shadow-lg rounded-lg overflow-hidden p-4">
+                    <h3 className="text-lg font-semibold text-white">
+                      Liora Starflare's Narrative
+                    </h3>
+                    <audio controls className="w-full mt-2">
+                      <source src={LioraBackgroundNarrative} type="audio/ogg" />
+                      Your browser does not support the audio element.
+                    </audio>
+                  </div>
+                  <div className="bg-gray-800 shadow-lg rounded-lg overflow-hidden p-4">
+                    <h3 className="text-lg font-semibold text-white">
+                      Lysara Starweaver's Narrative
+                    </h3>
+                    <audio controls className="w-full mt-2">
+                      <source
+                        src={LysaraBackgroundNarrative}
+                        type="audio/ogg"
+                      />
+                      Your browser does not support the audio element.
+                    </audio>
+                  </div>
+                  <div className="bg-gray-800 shadow-lg rounded-lg overflow-hidden p-4">
+                    <h3 className="text-lg font-semibold text-white">
+                      Riven Emberforge's Narrative
+                    </h3>
+                    <audio controls className="w-full mt-2">
+                      <source src={RivenBackgroundNarrative} type="audio/ogg" />
+                      Your browser does not support the audio element.
+                    </audio>
+                  </div>
+                  <div className="bg-gray-800 shadow-lg rounded-lg overflow-hidden p-4">
+                    <h3 className="text-lg font-semibold text-white">
+                      Thalia Windwhisper's Narrative
+                    </h3>
+                    <audio controls className="w-full mt-2">
+                      <source
+                        src={ThaliaBackgroundNarrative}
+                        type="audio/ogg"
+                      />
+                      Your browser does not support the audio element.
+                    </audio>
+                  </div>
+                  <div className="bg-gray-800 shadow-lg rounded-lg overflow-hidden p-4">
+                    <h3 className="text-lg font-semibold text-white">
+                      Thalorin Windrider's Narrative
+                    </h3>
+                    <audio controls className="w-full mt-2">
+                      <source
+                        src={ThalorinBackgroundNarrative}
+                        type="audio/ogg"
+                      />
+                      Your browser does not support the audio element.
+                    </audio>
+                  </div>
+                </div>
+              </>
+            )}
             <h2 className="mt-4 text-xl font-semibold mb-6 text-black">
               {language == "en"
                 ? "AIs used in this world"
@@ -166,6 +288,18 @@ export default function World({
                 </div>
               ))}
             </div>
+            {externalLink && (
+              <a
+                href={externalLink}
+                target="_blank"
+                rel="noreferrer"
+                className="mt-4 text-xl font-semibold mb-6 text-black"
+              >
+                {language == "en"
+                  ? "See more about this world ↗"
+                  : "Veja mais sobre este mundo ↗"}
+              </a>
+            )}
           </div>
         )}
       </div>
