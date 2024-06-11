@@ -5,20 +5,40 @@ export interface ICharacter {
   background?: string;
   race?: string;
   char_class?: string;
+  age?: string;
+  height?: string;
+  weight?: string;
   realm?: string;
+  domain?: string;
   appearance?: string;
+  motivations?: string;
+  objectives?: string;
   personality?: string;
   strengths?: string;
   weaknesses?: string;
+  habilities?: string;
 }
 
 export interface IWorld {
+  language: string;
   title: string;
   history: string;
   characters: ICharacter[];
   ais: Array<{ name: string; description: string }>;
   initialWorldInfoVisible?: boolean;
+  externalLink?: string;
 }
+
+export type Tab = {
+  label: string;
+  value: string;
+};
+
+export interface ITabs {
+  tabs: Tab[];
+  selectedTab: string;
+  onChange: (value: string) => void;
+};
 
 export type Sizes =
   | "xs"
