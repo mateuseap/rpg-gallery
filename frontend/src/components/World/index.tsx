@@ -2,6 +2,10 @@ import { useState, Fragment } from "react";
 import { ChevronDownIcon, ChevronUpIcon } from "@heroicons/react/24/outline";
 import { Dialog, Transition } from "@headlessui/react";
 import { ICharacter, IWorld } from "../../types";
+import AtticusSoundTrack from "../../assets/soundtrack/valoria/atticus.mp3";
+import CedricSoundTrack from "../../assets/soundtrack/valoria/cedric.mp3";
+import ElaraSoundTrack from "../../assets/soundtrack/valoria/elara.mp3";
+import SeraphinaSoundTrack from "../../assets/soundtrack/valoria/seraphina.mp3";
 
 export default function World({
   language,
@@ -93,7 +97,52 @@ export default function World({
                 </div>
               ))}
             </div>
-            <h2 className="text-xl font-semibold mb-6 text-black">
+            {title == "Valoria" && (
+              <>
+                <h2 className="text-xl font-semibold mb-6 text-black">
+                  {language == "en" ? "Soundtrack" : "Trilha Sonora"}
+                </h2>
+                <div>
+                  <div className="mb-4">
+                    <h3 className="text-lg font-semibold text-black">
+                      Professor Atticus Gearheart - The Clockwork Inventor
+                    </h3>
+                    <audio controls className="w-[50%] mt-2 ml-2">
+                      <source src={AtticusSoundTrack} type="audio/mp3" />
+                      Your browser does not support the audio element.
+                    </audio>
+                  </div>
+                  <div className="mb-4">
+                    <h3 className="text-lg font-semibold text-black">
+                      Lord Cedric Thorne - The Aristocratic Alchemist
+                    </h3>
+                    <audio controls className="w-[50%] mt-2 ml-2">
+                      <source src={CedricSoundTrack} type="audio/mp3" />
+                      Your browser does not support the audio element.
+                    </audio>
+                  </div>
+                  <div className="mb-4">
+                    <h3 className="text-lg font-semibold text-black">
+                      Elara Voss - The Aeronaut Adventurer
+                    </h3>
+                    <audio controls className="w-[50%] mt-2 ml-2">
+                      <source src={ElaraSoundTrack} type="audio/mp3" />
+                      Your browser does not support the audio element.
+                    </audio>
+                  </div>
+                  <div className="mb-4">
+                    <h3 className="text-lg font-semibold text-black">
+                      Seraphina Blackwood - The Rogue Mechanic
+                    </h3>
+                    <audio controls className="w-[50%] mt-2 ml-2">
+                      <source src={SeraphinaSoundTrack} type="audio/mp3" />
+                      Your browser does not support the audio element.
+                    </audio>
+                  </div>
+                </div>
+              </>
+            )}
+            <h2 className="mt-4 text-xl font-semibold mb-6 text-black">
               {language == "en"
                 ? "AIs used in this world"
                 : "IAs utilizadas neste mundo"}
