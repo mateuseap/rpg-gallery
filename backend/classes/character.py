@@ -7,6 +7,9 @@ class Character:
         background=None,
         race=None,
         char_class=None,
+        age=None,
+        height=None,
+        weight=None,
         realm=None,
         domain=None,
         appearance=None,
@@ -23,6 +26,9 @@ class Character:
         self.background = background
         self.race = race
         self.char_class = char_class
+        self.age = age
+        self.height = height
+        self.weight = weight
         self.realm = realm
         self.domain = domain
         self.appearance = appearance

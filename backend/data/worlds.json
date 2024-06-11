@@ -169,6 +169,145 @@
    },
    {
       "language":"en",
+      "title":"Aetheris",
+      "history":"In the realm of Aetheris, floating islands drift above an ever-changing sea of luminous auras. Cities thrive on the backs of colossal, sentient beasts, while ancient ruins hold secrets of forgotten sky magic. Rival factions vie for control of crystal shards that harness storm energy, and airship pirates plunder the skies. Amidst this, the enigmatic Aetherborn, beings of pure light, guard a prophecy of a cataclysmic convergence that could reshape the very fabric of reality.",
+      "characters":[
+         {
+            "name":"Thalorin Windrider",
+            "description":"I travel the skies, seeking out those who threaten the balance of our world and guarding the prophecy points. The journey is perilous, but the wind is my ally, and the skies my home.",
+            "imageUrl":"thalorinImageUrl",
+            "background":"I was born under the shimmering lights of Auror Isle, amidst the bioluminescent forests and ancient ruins. As a child, I was always drawn to the heights, climbing the tallest trees and leaping from branch to branch, feeling the wind embrace me. My family were guardians of the ancient ruins, protectors of the lost knowledge of our ancestors. I was taught the ways of the sky magic, how to harness the wind and speak with the spirits of the air. One fateful day, our isle was attacked by sky pirates, seeking the secrets of our magic. It was then I discovered my true calling, as the winds responded to my desperate plea, unleashing a storm that drove the pirates away. From that moment, I dedicated myself to mastering the art of storm magic, vowing to protect my people and the floating islands of Aetheris.",
+            "race":"Elf",
+            "char_class":"Storm Mage/Ranger",
+            "age":"120 years (appears 30)",
+            "height":"6'2''",
+            "weight":"180 lbs",
+            "appearance":"Thalorin Windrider is a tall, lean elf with silver hair that flows like moonlight down to his waist. His eyes, a piercing azure, seem to hold the vastness of the sky. His skin has a faint, iridescent sheen, reminiscent of the light of dawn. He wears a sleek, dark leather armor adorned with intricate silver patterns, designed to mimic the flow of the wind. A graceful, azure cloak billows behind him, glowing faintly with runic symbols."
+         },
+         {
+            "name":"Kaelen Ironfist",
+            "description":"I roam the floating islands of Aetheris, seeking to defend the prophecy points and ensuring the safety of our world. With Earthshaker in hand, I stand ready to face any threat, for I am Kaelen Ironfist, the unyielding defender of the earth.",
+            "imageUrl":"kaelenImageUrl",
+            "background":"I am Kaelen Ironfist, son of Thrain, born in the rugged depths of the Shimmering Highlands. From a young age, I was taught the art of mining and smithing, for my family are renowned blacksmiths. Our clan has long been the guardians of the crystal formations that sparkle like stars in our highland home. But our life is not just about crafting weapons and armor; we are also the keepers of ancient earth magic. One day, as I delved deep into the heart of the mountains, I uncovered a hidden chamber filled with ancient runes and a mystical warhammer. As I grasped the weapon, the runes glowed, and I felt a surge of power coursing through me. It was then I knew my destiny: to become the protector of the highlands and its secrets.",
+            "race":"Dwarf",
+            "char_class":"Earth Guardian/Warrior",
+            "age":"150 years (appears 50)",
+            "height":"4'8\"",
+            "weight":"220 lbs",
+            "appearance":"Kaelen Ironfist is a burly, stout dwarf with a thick mane of fiery red hair braided with silver rings. His beard is equally impressive, reaching down to his chest and adorned with runic charms. His eyes are a deep, earthy brown, reflecting the wisdom and strength of the mountains. His skin is tanned and rugged from years of exposure to the elements. He wears heavy, rune-etched armor of dark iron and carries a massive warhammer, \"Earthshaker,\" on his back."
+         },
+         {
+            "name":"Lysara Starweaver",
+            "description":"I traverse the skies of Aetheris, seeking to unravel the mysteries of the prophecy and guide my people through the coming trials. With the stars as my guide and the storm as my ally, I am Lysara Starweaver, the mystic who weaves the fate of worlds.",
+            "imageUrl":"lysaraImageUrl",
+            "background":"I am Lysara Starweaver, born under the celestial lights of Tempest Archipelago, where the skies are ever turbulent and filled with the power of the storm. My people are the seers and mystics of Aetheris, deeply attuned to the cosmic energies that bind our world. From a young age, I was drawn to the stars and the secrets they whispered. One fateful night, as a tempest raged, I ventured into the heart of the storm. There, amidst the swirling chaos, I encountered a celestial being who bestowed upon me the Starweaver's Staff, a conduit for the celestial magic that flows through the universe. With this power, I could see beyond the veil of reality, glimpsing the future and bending the cosmic energies to my will.",
+            "race":"Elf",
+            "char_class":"Celestial Sorceress/Seer",
+            "age":"90 years (appears 25)",
+            "height":"5'7\"",
+            "weight":"130 lbs",
+            "appearance":"Lysara Starweaver is a graceful, ethereal figure with long, silvery hair that shimmers like starlight. Her eyes are a deep violet, reflecting the mysteries of the cosmos. She has a slender, delicate build, with pale, almost translucent skin that glows faintly in the dark. She wears flowing robes of midnight blue adorned with intricate constellations and carries a celestial staff topped with a radiant crystal."
+         },
+         {
+            "name":"Darian Blackthorn",
+            "description":"I wander the floating islands, keeping to the shadows and dealing with threats that others can't—or won't—handle. With Shadowfang at my side, I am Darian Blackthorn, the rogue who walks the fine line between light and darkness.",
+            "imageUrl":"darianImageUrl",
+            "background":"Name's Darian Blackthorn. Grew up in the shadowy forests of the Pirate's Refuge, where danger lurks behind every tree. Life there ain't easy, and you learn quick or you don't learn at all. My family were once nobles, exiled to the dark corners of Aetheris for reasons best left unsaid. We turned to the life of the rogue, mastering the arts of stealth and survival. One night, while scavenging an ancient ruin, I found Shadowfang, a blade of mysterious origin with a thirst for darkness. From that moment, my fate was sealed. The blade spoke to me, revealing secrets and powers that made me a force to be reckoned with. I’ve since become a protector of sorts, though not by choice—more by necessity.",
+            "race":"Human",
+            "char_class":"Rogue/Shadow Knight",
+            "age":"35 years",
+            "height":"6'0\"",
+            "weight":"200 lbs",
+            "appearance":"Darian Blackthorn is a rugged, imposing figure with dark, shoulder-length hair and piercing green eyes that seem to see into one's soul. His skin is tanned and marked with various battle scars. He wears a mix of dark leather and metal armor, designed for both protection and agility. His left arm bears a tattoo of a thorny vine, and he carries a dual-edged sword, \"Shadowfang,\" on his back."
+         },
+         {
+            "name":"Liora Starflare",
+            "description":"I travel the lands of Aetheris, using my powers to maintain harmony and fight the darkness that threatens our realm. With the Celestial Beacon in hand, I am Liora Starflare, the guardian of the stars and protector of the celestial balance.",
+            "imageUrl":"lioraImageUrl",
+            "background":"I am Liora Starflare, an astral elf from the Skyvault Citadel, a city suspended among the stars of Aetheris. Our kind has always had a deep connection to the cosmos, drawing power and wisdom from the stars themselves. As a child, I would spend nights gazing at the constellations, feeling their pull and hearing their ancient whispers. One night, during a celestial alignment, I was chosen by the Star Council to become a Starseer, a guardian of the cosmic balance. The Celestial Beacon, a staff created from a fallen star, was entrusted to me, enhancing my connection to the astral forces. Through it, I can channel the energy of the stars, using it to protect our world and guide those who are lost.",
+            "race":"Elf",
+            "char_class":"Starseer/Celestial Mage",
+            "age":"120 years (appears 25)",
+            "height":"5'10\"",
+            "weight":"140 lbs",
+            "appearance":"Liora Starflare is a striking figure with shimmering silver hair that flows like liquid light and eyes that glow with an inner fire, reflecting the cosmos. Her skin is a pale gold, radiating a faint, otherworldly luminescence. She wears robes woven from stardust and light, which shift colors with her emotions. In her hand, she wields a staff, \"Celestial Beacon,\" topped with a crystal that pulses with cosmic energy."
+         },
+         {
+            "name":"Elysia Stormrider",
+            "description":"I roam the floating islands of Aetheris, harnessing the fury of the storm to protect those in need and maintain the balance of the world. With Tempest's Edge in hand, I am Elysia Stormrider, the warrior who rides the lightning and commands the storm.",
+            "imageUrl":"elysiaImageUrl",
+            "background":"I am Elysia Stormrider, born amidst the roaring winds and raging seas of the Tempest Archipelago. From an early age, I felt the call of the storm, the thunder and lightning resonating with something deep within me. My family are the Stormwardens, a lineage of warriors and sailors who have always protected our people from the tempests that give our home its name. One fateful night, while navigating a particularly ferocious storm at sea, I was struck by lightning. Instead of death, I found a gift—the power to command the storm. My sword, Tempest's Edge, was forged from the remnants of the storm that changed my fate, a weapon that channels my newfound abilities.",
+            "race":"Human",
+            "char_class":"Storm Knight/Elementalist",
+            "age":"30 years",
+            "height":"5'10\"",
+            "weight":"160 lbs",
+            "appearance":"Elysia Stormrider is a tall, athletic woman with windswept, platinum blonde hair that reaches her shoulders. Her eyes are a striking electric blue, often sparking with energy. Her skin is fair, with a slight shimmer that suggests a connection to the elements. She wears light armor made of silvered leather, designed for mobility and infused with conductive materials. At her side is a curved sword, \"Tempest's Edge,\" which crackles with latent electricity."
+         },
+         {
+            "name":"Riven Emberforge",
+            "description":"I travel across Aetheris, using my skills to protect the prophecy points and ensure that the balance of our world is maintained. With Inferno's Wrath in hand, I am Riven Emberforge, the fire-forged warrior who wields the power of the flame.",
+            "imageUrl":"rivenImageUrl",
+            "background":"I am Riven Emberforge, born from the molten depths of the Tempest Archipelago. My clan has always been known for their mastery over the forge, creating weapons and armor imbued with the essence of fire. From a young age, I was drawn to the heat of the forge, where I spent countless hours learning the craft and the secrets of fire magic. One day, while working on a particularly challenging piece, I discovered an ancient forge deep within the mountains. There, I found Inferno's Wrath, a warhammer forged in dragonfire. As I touched it, the hammer's magic coursed through me, binding my fate to the ancient powers of fire and metal.",
+            "race":"Dwarf",
+            "char_class":"Fire Mage/Blacksmith",
+            "age":"140 years (appears 45)",
+            "height":"4'5\"",
+            "weight":"220 lbs",
+            "appearance":"Riven Emberforge is a stocky, muscular dwarf with a fiery red beard that he keeps neatly braided. His eyes are a deep, smoldering amber, and his skin is rough and tanned from years spent near the forge. He wears a sturdy blacksmith's apron over his armor, which is adorned with intricate designs of flames and molten metal. On his back, he carries a massive warhammer, \"Inferno's Wrath,\" with a head that glows with an inner fire."
+         },
+         {
+            "name":"Thalia Windwhisper",
+            "description":"I have set out to maintain the balance of Aetheris, healing the land and defending it from those who would seek to disrupt its harmony. I am Thalia Windwhisper, the druid who speaks for the trees and the wind.",
+            "imageUrl":"thaliaWindwhisperImageUrl",
+            "background":"I am Thalia Windwhisper, born of the ancient groves in the heart of the Shimmering Highlands. From my earliest memories, I have felt a deep connection to the natural world, hearing the whispers of the wind and the songs of the trees. My people are the druids, guardians of the forests and protectors of the balance of nature. As a child, I wandered the groves and learned the ways of the druids, mastering the art of communicating with nature and harnessing its power. One day, while meditating under the oldest tree in the grove, I was visited by the spirit of the forest, who bestowed upon me the Emerald Staff, a powerful artifact that channels the life force of nature.",
+            "race":"Half-Elf",
+            "char_class":"Druid/Nature Mage",
+            "age":"85 years (appears 25)",
+            "height":"5'6\"",
+            "weight":"130 lbs",
+            "appearance":"Thalia Windwhisper is a slender, ethereal woman with hair the color of spun gold that flows freely in the breeze. Her eyes are a serene green, reflecting the tranquility of the forests. Her skin is fair with a slight luminescence, and she moves with the grace of a deer. She wears a cloak made of leaves and vines that seem to shimmer and shift with the wind. At her side is a wooden staff, entwined with living ivy and topped with a glowing emerald."
+         },
+         {
+            "name":"Korrak Stonebreaker",
+            "description":"I travel the vast expanse of Aetheris, using my strength and earth magic to protect the prophecy points and preserve the natural order. With Earthshaker in hand, I am Korrak Stonebreaker, the mountain's guardian and the earth's champion.",
+            "imageUrl":"korrakImageUrl",
+            "background":"I am Korrak Stonebreaker, a proud Goliath of the Ironclad Peaks. My people have always been deeply connected to the mountains, drawing strength and wisdom from the stones. From a young age, I trained to become a Stoneguard, a protector of our lands and keeper of ancient earth magic. During a trial of endurance in the deepest caverns of our homeland, I discovered the Earthshaker, a warhammer forged by the mountain spirits. As I grasped its handle, the power of the earth flowed through me, and I was chosen to wield this sacred weapon to defend our realm and maintain the balance of nature.",
+            "race":"Goliath",
+            "char_class":"Earth Warden/Stoneguard",
+            "age":"35 years",
+            "height":"7'4\"",
+            "weight":"350 lbs",
+            "appearance":"Korrak Stonebreaker is a massive, imposing figure with dark, rocky skin that seems to be carved from the earth itself. His eyes are deep-set and glowing with an orange hue, reminiscent of molten lava. He stands over seven feet tall, with broad shoulders and a muscular build. He wears heavy armor made from enchanted stone and metal, and carries a giant warhammer, \"Earthshaker,\" adorned with runes that glow faintly."
+         }
+      ],
+      "ais":[
+         {
+            "name":"GPT-4o",
+            "description":"Creation of the RPG world, characters, campaign, and much more."
+         },
+         {
+            "name":"Copilot",
+            "description":"Used for world map and character images generation."
+         },
+         {
+            "name":"Udio",
+            "description":"Used for generating the RPG soundtrack."
+         },
+         {
+            "name":"Typecast",
+            "description":"Used to generate narrative audios for characters background."
+         },
+         {
+            "name":"NaturalReader",
+            "description":"Same use as Typecast."
+         }
+      ],
+      "initialWorldInfoVisible":true,
+      "externalLink":"https://sour-timimus-675.notion.site/Aetheris-Documenta-o-1fd463d152984ef38d7db1586ae3c4b0"
+   },
+   {
+      "language":"en",
       "title":"Valoria",
       "history":"Valoria is a captivating steampunk world where the interplay of mechanical ingenuity and arcane wonders defines daily life. The land is divided into distinct regions, each with its unique character and challenges, creating a rich tapestry of environments and cultures.",
       "characters":[
@@ -212,10 +351,10 @@
          },
          {
             "name":"Udio",
-            "description":"Audio generation"
+            "description":"Audio generation."
          }
       ],
-      "initialWorldInfoVisible":true,
+      "initialWorldInfoVisible":false,
       "externalLink":"https://spotless-lip-6d2.notion.site/The-Steampunk-World-of-Valoria-5f11156f351a4a2690e99bbb0cb0d648"
    },
    {

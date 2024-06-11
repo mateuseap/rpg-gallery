@@ -11,6 +11,15 @@ def convert_image_to_base64(image_path):
 
 # Paths to image files
 image_paths = {
+    "darianImageUrl": "data/assets/aetheris/darian.jpeg",
+    "elysiaImageUrl": "data/assets/aetheris/elysia.jpeg",
+    "kaelenImageUrl": "data/assets/aetheris/kaelen.jpg",
+    "korrakImageUrl": "data/assets/aetheris/korrak.png",
+    "lioraImageUrl": "data/assets/aetheris/liora.jpeg",
+    "lysaraImageUrl": "data/assets/aetheris/lysara.jpg",
+    "rivenImageUrl": "data/assets/aetheris/riven.jpeg",
+    "thaliaWindwhisperImageUrl": "data/assets/aetheris/thaliaWindwhisper.jpeg",
+    "thalorinImageUrl": "data/assets/aetheris/thalorin.jpg",
     "devotosImageUrl": "data/assets/calgar/devotos.jpeg",
     "drakonImageUrl": "data/assets/calgar/drakon.jpeg",
     "guardioesImageUrl": "data/assets/calgar/guardioes.jpeg",
