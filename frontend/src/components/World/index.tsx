@@ -76,23 +76,27 @@ export default function World({
                 ? "Character Previews"
                 : "Prévias de Personagens"}
             </h2>
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mb-6">
+            <div className="flex flex-wrap -mx-4 mb-6">
               {characters.map((character) => (
                 <div
                   key={character.name}
-                  className="bg-gray-800 shadow-lg rounded-lg overflow-hidden transform transition-transform hover:scale-105 hover:shadow-2xl cursor-pointer"
-                  onClick={() => openModal(character)}
+                  className="w-full sm:w-1/2 lg:w-1/3 px-4 mb-8 flex"
                 >
-                  <img
-                    src={formatImageUrl(character.imageUrl)}
-                    alt={character.name}
-                    className="w-full h-96 object-cover"
-                  />
-                  <div className="p-4 bg-gradient-to-r from-green-200 to-blue-200">
-                    <h3 className="text-xl font-bold text-black">
-                      {character.name}
-                    </h3>
-                    <p className="text-gray-600">{character.description}</p>
+                  <div
+                    className="bg-gray-800 shadow-lg rounded-lg overflow-hidden transform transition-transform hover:scale-105 hover:shadow-2xl cursor-pointer flex flex-col flex-grow"
+                    onClick={() => openModal(character)}
+                  >
+                    <img
+                      src={formatImageUrl(character.imageUrl)}
+                      alt={character.name}
+                      className="w-full h-96 object-cover"
+                    />
+                    <div className="p-4 bg-gradient-to-r from-green-200 to-blue-200 flex-grow flex flex-col">
+                      <h3 className="text-xl font-bold text-black">
+                        {character.name}
+                      </h3>
+                      <p className="text-gray-600 flex-grow">{character.description}</p>
+                    </div>
                   </div>
                 </div>
               ))}
