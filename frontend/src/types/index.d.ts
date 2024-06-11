@@ -5,6 +5,9 @@ export interface ICharacter {
   background?: string;
   race?: string;
   char_class?: string;
+  age?: string;
+  height?: string;
+  weight?: string;
   realm?: string;
   domain?: string;
   appearance?: string;

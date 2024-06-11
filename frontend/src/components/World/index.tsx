@@ -237,6 +237,34 @@ export default function World({
                         </p>
                       </>
                     )}
+                    {selectedCharacter?.age && (
+                      <>
+                        <h4 className="mt-4 text-lg font-semibold">
+                          {language == "en" ? "Age" : "Idade"}
+                        </h4>
+                        <p className="text-gray-600">{selectedCharacter.age}</p>
+                      </>
+                    )}
+                    {selectedCharacter?.height && (
+                      <>
+                        <h4 className="mt-4 text-lg font-semibold">
+                          {language == "en" ? "Height" : "Altura"}
+                        </h4>
+                        <p className="text-gray-600">
+                          {selectedCharacter.height}
+                        </p>
+                      </>
+                    )}
+                    {selectedCharacter?.weight && (
+                      <>
+                        <h4 className="mt-4 text-lg font-semibold">
+                          {language == "en" ? "Weight" : "Peso"}
+                        </h4>
+                        <p className="text-gray-600">
+                          {selectedCharacter.weight}
+                        </p>
+                      </>
+                    )}
                     {selectedCharacter?.realm && (
                       <>
                         <h4 className="mt-4 text-lg font-semibold">
