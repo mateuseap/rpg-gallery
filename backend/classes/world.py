@@ -3,7 +3,16 @@ from .ai import AI
 
 
 class World:
-    def __init__(self, language, title, history, characters, ais, initialWorldInfoVisible, externalLink=None):
+    def __init__(
+        self,
+        language,
+        title,
+        history,
+        characters,
+        ais,
+        initialWorldInfoVisible,
+        externalLink=None,
+    ):
         self.language = language
         self.title = title
         self.history = history
