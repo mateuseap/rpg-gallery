@@ -32,6 +32,10 @@ image_paths = {
     "garenImageUrl": "data/assets/runeterra/garen.jpeg",
     "leBlancImageUrl": "data/assets/runeterra/leBlanc.jpeg",
     "swainImageUrl": "data/assets/runeterra/swain.jpeg",
+    "atticusImageUrl": "data/assets/valoria/atticus.png",
+    "cedricImageUrl": "data/assets/valoria/cedric.png",
+    "elaraVossImageUrl": "data/assets/valoria/elaraVoss.png",
+    "seraphinaBlackwoodImageUrl": "data/assets/valoria/seraphinaBlackwood.png",
 }
 
 # Load the worlds data from the JSON file

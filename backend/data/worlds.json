@@ -167,6 +167,57 @@
       "initialWorldInfoVisible":false,
       "externalLink": "https://drive.google.com/drive/u/0/folders/19rVD9fvZBuO6DpuC31ATUrSddPTEP3sJ"
     },
+   {
+      "language": "en",
+      "title":"Valoria",
+      "history":"Valoria is a captivating steampunk world where the interplay of mechanical ingenuity and arcane wonders defines daily life. The land is divided into distinct regions, each with its unique character and challenges, creating a rich tapestry of environments and cultures.",
+      "characters":[
+         {
+            "name":"Elara Voss - The Aeronaut Adventurer",
+            "description":"A daring and fearless aeronaut, is known across the skies for her unmatched skills in piloting steam-powered airships.",
+            "imageUrl":"elaraVossImageUrl",
+            "motivations":"Elara is driven by a desire to uncover the world's mysteries, often taking on perilous missions to explore forgotten ruins or retrieve ancient artifacts. ",
+            "appearance": "With her auburn hair perpetually tousled by the wind and goggles constantly perched atop her head, Elara embodies the spirit of adventure. Her attire consists of a leather aviator jacket adorned with numerous pockets and brass buttons, practical yet stylish trousers, and sturdy boots that have seen countless miles of sky travel. A set of intricate tattoos, depicting the constellations, coils up her left arm, a tribute to the night skies she navigates so expertly."
+         },
+         {
+            "name":"Professor Atticus Gearheart - The Clockwork Inventor",
+            "description":"A brilliant inventor and a cornerstone of the steampunk city of Cogsworth.",
+            "imageUrl":"atticusImageUrl",
+            "motivations":"Gearheart's greatest challenge is balancing his insatiable drive to create with the responsibility his inventions bring, constantly walking the line between innovation and chaos.",
+            "appearance": "With a monocle perched on his nose and a perpetual smudge of oil on his cheek, he is the epitome of a mad genius. His wild gray hair and bushy mustache add to his eccentric appearance. Atticus is seldom seen without his long, tailcoat filled with an assortment of tools and gadgets, and a pocket watch that he frequently consults, not for the time, but for its myriad of hidden functionalities."
+         },
+         {
+            "name":"Seraphina Blackwood - The Rogue Mechanic",
+            "description":"A skilled mechanic with a penchant for rebellion, operates in the underbelly of the steampunk metropolis of Ironhaven.",
+            "imageUrl":"seraphinaBlackwoodImageUrl",
+            "motivations":"She leads a double life, blending into the shadows to aid the less fortunate by night while maintaining a low profile by day. Her ultimate goal is to inspire a revolution that will topple the corrupt government and bring equality to Ironhaven.",
+            "appearance": "Her jet-black hair, often tied back with a strip of leather, and piercing green eyes give her a striking appearance. Clad in a patchwork of salvaged armor and worn leather, she moves with the grace of someone who has spent their life navigating the city's labyrinthine alleys. Seraphina's hands are perpetually stained with grease, a testament to her life's work."
+         },
+         {
+            "name":"Lord Cedric Thorne - The Aristocratic Alchemist",
+            "description":"An aristocrat with a fascination for alchemy and the arcane, stands as a unique figure in the elite circles of the steam-powered city of Elysium.",
+            "imageUrl":"cedricImageUrl",
+            "motivations":"He is driven by a quest for knowledge and a desire to transcend the limits of human existence. This obsession often puts him at odds with both the scientific community and the mystical factions of Elysium.",
+            "appearance": "Tall and imposing, with a meticulously groomed beard and piercing blue eyes, Cedric exudes an air of mystery and authority. His attire is a blend of aristocratic elegance and alchemical practicality, featuring a long, dark coat with hidden pockets for vials and scrolls, and gloves designed for handling volatile substances."
+         }
+      ],
+      "ais":[
+         {
+            "name":"GPT-4o",
+            "description":"Creation of script, characters and prompts for other tools."
+         },
+         {
+            "name":"Copilot",
+            "description":"Image generation."
+         },
+         {
+            "name": "Udio",
+            "description": "Audio generation"
+         }
+      ],
+      "initialWorldInfoVisible":true,
+      "externalLink": "https://spotless-lip-6d2.notion.site/The-Steampunk-World-of-Valoria-5f11156f351a4a2690e99bbb0cb0d648"
+   },
     {
        "language": "en",
        "title":"Elysium",
@@ -216,7 +267,7 @@
              "description":"Used to generate the gifs of Elysium characters."
           }
        ],
-       "initialWorldInfoVisible":true
+       "initialWorldInfoVisible":false
     },
     {
        "language": "en",
