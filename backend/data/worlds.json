@@ -288,7 +288,7 @@
          },
          {
             "name":"Copilot",
-            "description":"Used for world map and character images generation."
+            "description":"Used for world map and characters images generation."
          },
          {
             "name":"Udio",
