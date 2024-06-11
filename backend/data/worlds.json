@@ -1,10 +1,10 @@
 [
-    {
-      "language": "pt-br",
+   {
+      "language":"pt-br",
       "title":"Calgar",
       "history":"No sistema planetário de Calgar, cinco mundos místicos guardam segredos antigos. Você deve desvendar mistérios, enfrentar facções sombrias e descobrir a tecnologia Aetherium. Embarque em uma jornada épica por florestas luminescentes, oceanos profundos, selvas exuberantes, vulcões ardentes e cidades celestiais. Nas Ruínas de Solara, a entidade Solara e o Aetherium aguardam, enquanto forças sombrias ameaçam desencadear um poder devastador. Suas escolhas e alianças determinarão o futuro de Calgar.",
       "characters":[
-          {
+         {
             "name":"Os Devotos da Escuridão",
             "description":"Os Devotos da Escuridão são uma facção sombria unida pelo desejo de reativar o Aetherium e usar seu poder para fins destrutivos.",
             "imageUrl":"devotosImageUrl",
@@ -14,8 +14,8 @@
             "domain":"Sua influência se estende por todo o universo",
             "appearance":"Cada membro da facção exibe características únicas, refletindo sua diversidade de origens e habilidades sombrias.",
             "personality":"Eles são determinados e implacáveis, dispostos a fazer qualquer coisa para alcançar seus objetivos de controle e destruição, não importa o custo."
-          },
-          {
+         },
+         {
             "name":"Os Guardiões de Solara",
             "description":"Os Guardiões de Solara são uma ordem secreta de sábios e guerreiros dedicados a proteger os segredos do Aetherium e manter o equilíbrio no universo.",
             "imageUrl":"guardioesImageUrl",
@@ -25,8 +25,8 @@
             "domain":"Sua missão abrange todo o universo",
             "appearance":"Os Guardiões exibem uma variedade de vestimentas e armaduras, refletindo suas origens diversas, mas todos eles irradiam uma aura de sabedoria e determinação.",
             "personality":"Eles são corajosos, sábios e dedicados, dispostos a enfrentar qualquer desafio em nome da paz e harmonia cósmica."
-          },
-          {
+         },
+         {
             "name":"Talon Blackwing: O Mercenário Interplanetário",
             "description":"Talon Blackwing, um anti-herói cativante e perigoso, exibe uma beleza marcante e um olhar penetrante de cor vermelho flamejante.",
             "imageUrl":"talonBlackwingImageUrl",
@@ -36,8 +36,8 @@
             "domain":"Opera em todo o universo",
             "appearance":"Talon exibe uma beleza marcante, com olhos de cor vermelho flamejante que hipnotizam aqueles que o encaram. Seu visual mescla elementos de diferentes raças de Elaria, criando uma aura única e intrigante ao seu redor.",
             "personality":"Astuto, oportunista e charmoso, Talon é capaz de seduzir e manipular com facilidade. Suas motivações são guiadas pelo desejo de lucro e poder, mas sua lealdade é sempre negociável, dependendo do preço que está disposto a pagar."
-          },
-          {
+         },
+         {
             "name":"Drakon Forgefire",
             "description":"Drakon Forgefire, o imponente líder Ignis de Pyros, destaca-se com suas escamas brilhantes e musculatura robusta, refletindo o calor ardente de seu planeta.",
             "imageUrl":"drakonImageUrl",
@@ -47,8 +47,8 @@
             "domain":"Pyros",
             "appearance":"Drakon possui escamas brilhantes e avermelhadas, olhos laranja incandescente e uma armadura de placas metálicas esculpidas com símbolos ancestrais. Ele carrega um grande martelo de forja, símbolo de sua maestria como ferreiro.",
             "personality":"Ele exibe uma postura orgulhosa, mas justa, comprometido com a segurança e o fortalecimento de seu povo. Determinado e poderoso, Drakon é respeitado como líder comunitário."
-          },
-          {
+         },
+         {
             "name":"Nyra Evergreen",
             "description":"Nyra Evergreen é uma líder sábia e venerada entre os Druiden de Verdantia, cuja presença emana uma serenidade que ecoa através das selvas exuberantes.",
             "imageUrl":"nyraImageUrl",
@@ -58,8 +58,8 @@
             "domain":"Verdantia",
             "appearance":"Ela possui olhos profundos da cor das folhas verdes exuberantes, vestida com trajes adornados com folhas e galhos entrelaçados, e carrega consigo um cajado de madeira antiga esculpido com runas druídicas ancestrais.",
             "personality":"Nyra é sábia, serena e determinada, sempre guiando seu povo com compaixão e protegendo as maravilhas naturais de Verdantia."
-          },
-          {
+         },
+         {
             "name":"Kael Thalassa",
             "description":"Kael Thalassa, líder dos Aquarianos, irradia determinação e lealdade enquanto emerge das profundezas oceânicas, cercado pela aura misteriosa das águas abissais.",
             "imageUrl":"kaelThalassaImageUrl",
@@ -69,106 +69,106 @@
             "domain":"Aquaria",
             "appearance":"Kael é retratado usando uma armadura adornada com símbolos ancestrais, refletindo sua posição como líder e guardião de seu povo. Seu olhar sério e determinado revela sua determinação em proteger Aquaria.",
             "personality":"Ele é sério, leal e protetor, dedicado à segurança e ao bem-estar de seu povo e de seu reino submarino."
-          }
+         }
       ],
       "ais":[
-          {
+         {
             "name":"GPT-4o",
             "description":"Usado para gerar toda a história e descrições de cenários, personagens e artefatos. Além dos prompts para geração de imagem."
-          },
-          {
+         },
+         {
             "name":"Playground.IA",
             "description":"Usado para gerar as imagens dos cenários, personagens e artefatos."
-          }
+         }
       ],
       "initialWorldInfoVisible":true,
-      "externalLink": "https://efficient-narcissus-729.notion.site/Calgar-766692e230204d3dae7c861ec460118a"
-    },
-    {
-      "language": "pt-br",
+      "externalLink":"https://efficient-narcissus-729.notion.site/Calgar-766692e230204d3dae7c861ec460118a"
+   },
+   {
+      "language":"pt-br",
       "title":"Recife 2099: Neon e Sombras",
       "history":"Em um futuro onde a tecnologia domina, Recife é uma metrópole dividida entre luxo e miséria. As megacorporações controlam a cidade com implantes cibernéticos e vigilância constante, enquanto a resistência luta por liberdade nas sombras. Lucas \"Spectro\" Silva, um hacker mercenário da Favela da Lata, usa suas habilidades para desafiar as corporações e apoiar os marginalizados. Quando a NeoPlex desenvolve uma tecnologia de controle mental, Spectro e seus aliados precisam agir rapidamente para impedir uma catástrofe e libertar a cidade da opressão tecnológica.",
       "characters":[
-          {
+         {
             "name":"Marina \"Vapor\" Costa",
-            "description": "Sou uma mestra em dispositivos de infiltração e sabotagem, e meu codinome vem da minha capacidade de desaparecer sem deixar rastro, como vapor no ar.",
+            "description":"Sou uma mestra em dispositivos de infiltração e sabotagem, e meu codinome vem da minha capacidade de desaparecer sem deixar rastro, como vapor no ar.",
             "imageUrl":"vaporImageUrl",
             "background":"Meu nome é Marina Costa, mas na rede e nas ruas, sou conhecida como Vapor. Nasci e cresci na Zona Média, onde os sonhos de inovação colidem com a dura realidade. Meu pai era um engenheiro brilhante que trabalhava para uma das corporações, até que um acidente 'misterioso' o levou embora. Desde então, jurei desvendar as mentiras das megacorporações e fazer justiça.",
-            "habilities": "Invasão de sistemas de alta segurança, manipulação de dados sigilosos, controle de drones e dispositivos remotos. Além disso, desativação de sistemas de vigilância, criptografia e decodificação de redes protegidas."
-          },
-          {
+            "habilities":"Invasão de sistemas de alta segurança, manipulação de dados sigilosos, controle de drones e dispositivos remotos. Além disso, desativação de sistemas de vigilância, criptografia e decodificação de redes protegidas."
+         },
+         {
             "name":"João \"Cipher\" Oliveira",
             "description":"Sou um mercenário, um fantasma digital que se move entre códigos e redes, lutando por uma vida melhor para mim e para os meus.",
             "imageUrl":"cipherImageUrl",
             "background":"Me chamo João Oliveira, mas no submundo digital todos me conhecem como Cipher. Cresci na Favela da Lata, um lugar onde a tecnologia é tão improvisada quanto nossa sobrevivência diária. Desde pequeno, fui fascinado por computadores e redes, desmontando qualquer aparelho que conseguisse encontrar. Aos 12 anos, hackeei meu primeiro sistema de segurança — uma façanha que me fez ganhar respeito e alguns inimigos.",
-            "habilities": "Experiência em invasão de sistemas, criação de backdoors, e sabotagem de redes corporativas. Além disso, controle remoto de drones, câmeras e outros dispositivos de vigilância."
-          },
-          {
+            "habilities":"Experiência em invasão de sistemas, criação de backdoors, e sabotagem de redes corporativas. Além disso, controle remoto de drones, câmeras e outros dispositivos de vigilância."
+         },
+         {
             "name":"Rafael \"Sombra\" Silva",
             "description":"Sou um mercenário digital, vendendo meus serviços para o melhor lance. Vivo nas sombras, sempre um passo à frente da lei e das megacorporações que tentam controlar cada pedaço desta cidade.",
             "imageUrl":"sombraImageUrl",
             "background":"Me chamam de Rafael Silva, mas no submundo das ruas, sou conhecido como Sombra. Cresci nas entranhas sombrias da cidade, onde a tecnologia e o crime se entrelaçam em uma dança perigosa. Perdi meus pais cedo para a violência urbana, o que me empurrou para as ruas",
-            "habilities": "Invasão de sistemas complexos, criptografia e decodificação avançadas e manipulação de dados e informações." 
+            "habilities":"Invasão de sistemas complexos, criptografia e decodificação avançadas e manipulação de dados e informações."
          }
       ],
       "ais":[
-          {
+         {
             "name":"GPT-4o",
             "description":"Usado para gerar toda a história do RPG, personagens e artefatos."
-          },
-          {
+         },
+         {
             "name":"Copilot",
             "description":"Usado para gerar as imagens dos personagens, mapas e afins."
-          }
+         }
       ],
       "initialWorldInfoVisible":false,
-      "externalLink": "https://freckle-planarian-24b.notion.site/Mundo-novo-Criatividade-Fazer-hj-e48735235ca242f78e5618f1e0cab74c"
-    },
-    {
-      "language": "pt-br",
+      "externalLink":"https://freckle-planarian-24b.notion.site/Mundo-novo-Criatividade-Fazer-hj-e48735235ca242f78e5618f1e0cab74c"
+   },
+   {
+      "language":"pt-br",
       "title":"Runeterra",
       "history":"Bem-vindos ao mundo de Runeterra, onde cada região guarda segredos antigos e poderes misteriosos. Vocês, aventureiros, começam sua jornada na fronteira entre Demacia e Noxus, um território em constante conflito. As tensões estão altas e rumores falam de uma nova ameaça emergindo das sombras. Cabe a vocês decidir o destino destas terras e, talvez, de todo o mundo...",
       "characters":[
-          {
+         {
             "name":"Garen Crownguard",
             "description":"Um líder militar de Demacia, conhecido por sua bravura e força em batalha. Garen auxilia os jogadores na formação da aliança.",
             "imageUrl":"garenImageUrl",
             "motivations":"Proteger Demacia e seus ideais de justiça e ordem.",
             "objectives":"Unir forças com outras nações para combater a ameaça de Viego, mesmo que isso vá contra seus instintos.",
             "personality":"Honorável, leal, rígido"
-          },
-          {
+         },
+         {
             "name":"LeBlanc",
             "description":"A misteriosa manipuladora de Noxus, LeBlanc joga nos bastidores, utilizando ilusões e intrigas para atingir seus objetivos.",
             "imageUrl":"leBlancImageUrl",
             "motivations":"Usar o caos causado por Viego para fortalecer a Rosa Negra.",
             "objectives":"Sabotar os esforços dos jogadores e manter o equilíbrio de poder favorável à Rosa Negra.",
             "personality":"Manipuladora, enigmática, ambiciosa."
-          },
-          {
+         },
+         {
             "name":"Swain",
             "description":"O líder visionário de Noxus, Swain é um estrategista formidável que valoriza o poder e a força. Sua aliança com os jogadores é baseada na conveniência.",
             "imageUrl":"swainImageUrl",
             "motivations":"Expandir o poder de Noxus e eliminar ameaças ao império.",
             "objectives":"Pode se aliar aos jogadores se acreditar que a ameaça de Viego é grande o suficiente para justificar uma aliança temporária.",
             "personality":"Calculista, ambicioso, estrategista."
-          }
+         }
       ],
       "ais":[
-          {
+         {
             "name":"GPT-4o",
             "description":"Usado para gerar toda a história do RPG, personagens e artefatos. Além dos prompts para geração de imagem."
-          },
-          {
+         },
+         {
             "name":"Artbreeder",
             "description":"Usado para gerar as imagens dos personagens."
-          }
+         }
       ],
       "initialWorldInfoVisible":false,
-      "externalLink": "https://drive.google.com/drive/u/0/folders/19rVD9fvZBuO6DpuC31ATUrSddPTEP3sJ"
-    },
+      "externalLink":"https://drive.google.com/drive/u/0/folders/19rVD9fvZBuO6DpuC31ATUrSddPTEP3sJ"
+   },
    {
-      "language": "en",
+      "language":"en",
       "title":"Valoria",
       "history":"Valoria is a captivating steampunk world where the interplay of mechanical ingenuity and arcane wonders defines daily life. The land is divided into distinct regions, each with its unique character and challenges, creating a rich tapestry of environments and cultures.",
       "characters":[
@@ -177,28 +177,28 @@
             "description":"A daring and fearless aeronaut, is known across the skies for her unmatched skills in piloting steam-powered airships.",
             "imageUrl":"elaraVossImageUrl",
             "motivations":"Elara is driven by a desire to uncover the world's mysteries, often taking on perilous missions to explore forgotten ruins or retrieve ancient artifacts. ",
-            "appearance": "With her auburn hair perpetually tousled by the wind and goggles constantly perched atop her head, Elara embodies the spirit of adventure. Her attire consists of a leather aviator jacket adorned with numerous pockets and brass buttons, practical yet stylish trousers, and sturdy boots that have seen countless miles of sky travel. A set of intricate tattoos, depicting the constellations, coils up her left arm, a tribute to the night skies she navigates so expertly."
+            "appearance":"With her auburn hair perpetually tousled by the wind and goggles constantly perched atop her head, Elara embodies the spirit of adventure. Her attire consists of a leather aviator jacket adorned with numerous pockets and brass buttons, practical yet stylish trousers, and sturdy boots that have seen countless miles of sky travel. A set of intricate tattoos, depicting the constellations, coils up her left arm, a tribute to the night skies she navigates so expertly."
          },
          {
             "name":"Professor Atticus Gearheart - The Clockwork Inventor",
             "description":"A brilliant inventor and a cornerstone of the steampunk city of Cogsworth.",
             "imageUrl":"atticusImageUrl",
             "motivations":"Gearheart's greatest challenge is balancing his insatiable drive to create with the responsibility his inventions bring, constantly walking the line between innovation and chaos.",
-            "appearance": "With a monocle perched on his nose and a perpetual smudge of oil on his cheek, he is the epitome of a mad genius. His wild gray hair and bushy mustache add to his eccentric appearance. Atticus is seldom seen without his long, tailcoat filled with an assortment of tools and gadgets, and a pocket watch that he frequently consults, not for the time, but for its myriad of hidden functionalities."
+            "appearance":"With a monocle perched on his nose and a perpetual smudge of oil on his cheek, he is the epitome of a mad genius. His wild gray hair and bushy mustache add to his eccentric appearance. Atticus is seldom seen without his long, tailcoat filled with an assortment of tools and gadgets, and a pocket watch that he frequently consults, not for the time, but for its myriad of hidden functionalities."
          },
          {
             "name":"Seraphina Blackwood - The Rogue Mechanic",
             "description":"A skilled mechanic with a penchant for rebellion, operates in the underbelly of the steampunk metropolis of Ironhaven.",
             "imageUrl":"seraphinaBlackwoodImageUrl",
             "motivations":"She leads a double life, blending into the shadows to aid the less fortunate by night while maintaining a low profile by day. Her ultimate goal is to inspire a revolution that will topple the corrupt government and bring equality to Ironhaven.",
-            "appearance": "Her jet-black hair, often tied back with a strip of leather, and piercing green eyes give her a striking appearance. Clad in a patchwork of salvaged armor and worn leather, she moves with the grace of someone who has spent their life navigating the city's labyrinthine alleys. Seraphina's hands are perpetually stained with grease, a testament to her life's work."
+            "appearance":"Her jet-black hair, often tied back with a strip of leather, and piercing green eyes give her a striking appearance. Clad in a patchwork of salvaged armor and worn leather, she moves with the grace of someone who has spent their life navigating the city's labyrinthine alleys. Seraphina's hands are perpetually stained with grease, a testament to her life's work."
          },
          {
             "name":"Lord Cedric Thorne - The Aristocratic Alchemist",
             "description":"An aristocrat with a fascination for alchemy and the arcane, stands as a unique figure in the elite circles of the steam-powered city of Elysium.",
             "imageUrl":"cedricImageUrl",
             "motivations":"He is driven by a quest for knowledge and a desire to transcend the limits of human existence. This obsession often puts him at odds with both the scientific community and the mystical factions of Elysium.",
-            "appearance": "Tall and imposing, with a meticulously groomed beard and piercing blue eyes, Cedric exudes an air of mystery and authority. His attire is a blend of aristocratic elegance and alchemical practicality, featuring a long, dark coat with hidden pockets for vials and scrolls, and gloves designed for handling volatile substances."
+            "appearance":"Tall and imposing, with a meticulously groomed beard and piercing blue eyes, Cedric exudes an air of mystery and authority. His attire is a blend of aristocratic elegance and alchemical practicality, featuring a long, dark coat with hidden pockets for vials and scrolls, and gloves designed for handling volatile substances."
          }
       ],
       "ais":[
@@ -211,161 +211,161 @@
             "description":"Image generation."
          },
          {
-            "name": "Udio",
-            "description": "Audio generation"
+            "name":"Udio",
+            "description":"Audio generation"
          }
       ],
       "initialWorldInfoVisible":true,
-      "externalLink": "https://spotless-lip-6d2.notion.site/The-Steampunk-World-of-Valoria-5f11156f351a4a2690e99bbb0cb0d648"
+      "externalLink":"https://spotless-lip-6d2.notion.site/The-Steampunk-World-of-Valoria-5f11156f351a4a2690e99bbb0cb0d648"
    },
-    {
-       "language": "en",
-       "title":"Elysium",
-       "history":"Elysium is a realm where magic and technology coexist in harmony, with towering cities and sprawling forests. The land is ruled by a council of mages and scholars, who maintain balance and peace among the various races that inhabit the world. Despite the tranquility, dark forces lurk in the shadows, threatening to upset the harmony of Elysium.",
-       "characters":[
-          {
-             "name":"Seraphina",
-             "description":"A fierce warrior with a heart of gold.",
-             "imageUrl":"seraphinaImageUrl",
-             "background":"Seraphina was orphaned at a young age and raised by a group of skilled warriors. She honed her skills in combat and became a formidable fighter, determined to protect those in need.",
-             "race":"Half-elf",
-             "char_class":"Paladin",
-             "realm":"Elysium",
-             "appearance":"Seraphina stands tall with long, flowing silver hair and piercing blue eyes. She wears a gleaming suit of armor and carries a shield emblazoned with a golden sun.",
-             "personality":"Seraphina is brave and compassionate, always willing to lend a helping hand to those in need. She is fiercely loyal to her friends and will do anything to protect them."
-          },
-          {
-             "name":"Alaric",
-             "description":"A mysterious wizard with a troubled past.",
-             "imageUrl":"alaricImageUrl",
-             "background":"Alaric was once a powerful mage, but he was betrayed by a former ally and lost his powers. He now seeks to regain his abilities and uncover the truth behind his betrayal.",
-             "race":"Human",
-             "char_class":"Wizard",
-             "realm":"Elysium",
-             "appearance":"Alaric has long, dark hair and piercing green eyes. He wears a dark cloak and carries a staff adorned with magical symbols.",
-             "personality":"Alaric is guarded and enigmatic, keeping his true feelings hidden beneath a stoic exterior. However, he is deeply conflicted about his past and longs for redemption."
-          },
-          {
-             "name":"Talia",
-             "description":"A cunning rogue with a thirst for adventure.",
-             "imageUrl":"taliaImageUrl",
-             "background":"Talia grew up on the streets, learning to fend for herself and hone her skills in thievery and deception. She now seeks to use her abilities for good, taking on dangerous missions in exchange for valuable information.",
-             "race":"Halfling",
-             "char_class":"Rogue",
-             "realm":"Elysium",
-             "appearance":"Talia is small and nimble, with a mischievous grin and bright blue eyes. She wears a dark hooded cloak and carries a pair of daggers.",
-             "personality":"Talia is quick-witted and charming, able to talk her way out of any situation. She is fiercely independent and has a deep-seated love of adventure. However, she can be impulsive and reckless at times, getting herself into trouble."
-          }
-       ],
-       "ais":[
-          {
-             "name":"HuggingChat",
-             "description":"Used to generate the history of Elysium and all of its characters. The model used was NousResearch/Nous-Hermes-2-Mixtral-8x7B-DPO."
-          },
-          {
-             "name":"AnimatedDiff",
-             "description":"Used to generate the gifs of Elysium characters."
-          }
-       ],
-       "initialWorldInfoVisible":false
-    },
-    {
-       "language": "en",
-       "title":"Neo-Recife",
-       "history":"Neo-Recife is a sprawling megacity of neon lights and urban decay, built on old Pernambuco's ruins. Skyscrapers loom over streets plagued by acid rain and crime. Mega-corporations like Arasaka control life through surveillance and propaganda. Digital rebels, or Netrunners, hack networks to fight for freedom. Gangs and cybernetic assassins clash for power, while addictive cyberware blurs the line between human and machine. The legend of the Key, a powerful artifact, promises to overthrow these corporations and liberate the city, driving Netrunners to seek it out and change Neo-Recife's fate.",
-       "characters":[
-          {
-             "name":"Akemi Sato",
-             "description":"A ninja Netrunner of Japanese origin, with short black hair and piercing brown eyes. His slender, muscular body is covered in traditional Japanese tattoos and discreet cybernetic implants. She always wears a form-fitting black outfit, which combines elements of traditional Japanese clothing with cybernetic technology, and carries two cybernetic katanas on her back.",
-             "imageUrl":"akemiImageUrl",
-             "background":"Akemi was born in a small rural village in Japan, but from an early age she felt drawn to the digital world. After the death of her parents in a corporate attack, she fled to Neo-Recife in search of revenge. There, she joined a group of rebel hackers and trained as a Netrunner and ninja. Akemi has become one of the most skilled hackers in the city, using her skills to fight Arasaka and other megacorporations.",
-             "race":"Human",
-             "char_class":"Netrunner",
-             "strengths":"Intelligent, agile, skilled in hand-to-hand combat and hacking, loyal to his friends, dedicated to justice.",
-             "weaknesses":"Impulsive, vindictive, sometimes she acts without thinking about the consequences, she has difficulty trusting new people."
-          },
-          {
-             "name":"Jax \"Metalhead\" Stone",
-             "description":"Jax \"Metalhead\" Stone is an American-born cyborg mercenary with a body composed almost entirely of metal. His face is a cybernetic mask with glowing red eyes, and he has metallic arms and legs that give him superhuman strength. Jax always wears a black leather jacket and carries an arsenal of firearms and bladed weapons.",
-             "imageUrl":"jaxImageUrl",
-             "background":"Jax was a soldier in the American military who was seriously injured in a war against megacorporations. To save his life, he was subjected to a cybernetization process, which transformed him into a cyborg. Jax became a mercenary, using his skills for the highest bidder. He is known for his brutality and efficiency, but he also has his own code of honor and always protects the innocent.",
-             "race":"Human (Cyborg)",
-             "char_class":"Mercenary",
-             "strengths":"Strong, resilient, skilled in combat, loyal to his principles, protector of the innocent.",
-             "weaknesses":"Reckless, impulsive, prone to violence, has difficulty connecting with other people."
-          },
-          {
-             "name":"Xar'tul",
-             "description":"Xar'tul is an alien hacker of unknown origin. It has an insectoid appearance, with green skin, large, glowing eyes, and several antennae on its head. Xar'tul is small and thin, but has a keen intelligence and an incredible capacity for technological manipulation. He always wears a dark green cloak and carries a holographic datapad.",
-             "imageUrl":"xartulImageUrl",
-             "background":"Xar'tul arrived on Earth in a mysterious spaceship and quickly adapted to life on Neo-Reef. He became a talented hacker, using his skills to steal information from megacorporations and sell it to the highest bidder. Xar'tul is motivated by profit, but he also has a sense of justice and sometimes uses his abilities to help those in need.",
-             "race":"Alien",
-             "char_class":"Hacker",
-             "strengths":"Intelligent, skilled in hacking, creative, independent, defender of those in need.",
-             "weaknesses":"Arrogant, greedy, suspicious of other people, he has difficulty integrating into human society."
-          }
-       ],
-       "ais":[
-          {
-             "name":"Gemini",
-             "description":"Used to generate the history of Neo-Recife and all of its characters."
-          },
-          {
-             "name":"Civitai",
-             "description":"Used to generate the images of Neo-Recife characters, using the ToonYou model."
-          }
-       ],
-       "initialWorldInfoVisible":false
-    },
-    {
-       "language": "en",
-       "title":"Elaria - The Shattered Realms",
-       "history":"Elaria was once a unified world, a grand empire where magic flowed freely and technological marvels flourished. However, a cataclysmic event known as the Shattering splintered the realm into floating islands and divided it into three distinct environments: the Arcane Spires, the Verdant Wilds, and the Shadowlands. These realms hover in the sky, connected by ancient portals and traversable by airships.",
-       "characters":[
-          {
-             "name":"Arion Valeran",
-             "description":"A brilliant technomancer hailing from the Arcane Spires, a realm where magic and technology intertwine.",
-             "imageUrl":"arionImageUrl",
-             "background":"Arion grew up among the soaring towers of the Arcane Spires, where he was trained in the art of technomancy from a young age. He combines magic and technology to create incredible devices.",
-             "race":"Human",
-             "char_class":"Technomancer",
-             "realm":"Arcane Spires",
-             "appearance":"Arion has a lean build, with bright blue eyes that spark with intelligence. He wears a combination of robes and mechanical gear, always ready for both magic and machinery.",
-             "personality":"Arion is curious and inventive, always looking for new ways to combine magic and technology. He is dedicated to advancing knowledge and often loses himself in his work."
-          },
-          {
-             "name":"Thalia Greenshadow",
-             "description":"A devoted druid from the Verdant Wilds, a lush jungle teeming with mystical life, she is a guardian of nature.",
-             "imageUrl":"thaliaImageUrl",
-             "background":"Thalia has spent her life in the Verdant Wilds, communicating with nature and protecting the balance of the ecosystem. She is deeply connected to the flora and fauna of her realm.",
-             "race":"Elf",
-             "char_class":"Druid",
-             "realm":"Verdant Wilds",
-             "appearance":"Thalia has a graceful, athletic build with green eyes that reflect the vibrancy of the jungle. She dresses in natural fabrics and carries a staff adorned with vines and flowers.",
-             "personality":"Thalia is calm and nurturing, with a deep respect for all living things. She is wise and patient, always seeking peaceful solutions but ready to defend nature when necessary."
-          },
-          {
-             "name":"Kael Blackthorn",
-             "description":"A disciplined shadow monk from the Shadowlands, a realm shrouded in perpetual twilight and haunted by restless spirits.",
-             "imageUrl":"kaelImageUrl",
-             "background":"Kael was orphaned and raised in a monastery in the Shadowlands, where he learned the ways of the shadow monk. He has trained rigorously to master the art of stealth and combat.",
-             "race":"Human",
-             "char_class":"Shadow Monk",
-             "realm":"Shadowlands",
-             "appearance":"Kael has a rugged, muscular build, with dark hair and eyes that seem to absorb light. He wears simple, dark clothing that allows for maximum mobility and stealth.",
-             "personality":"Kael is stoic and disciplined, shaped by the harsh realities of the Shadowlands. He is a man of few words, preferring action over talk, and is dedicated to protecting the living from the restless dead."
-          }
-       ],
-       "ais":[
-          {
-             "name":"GPT-4o",
-             "description":"Used to generate the history of Elaria and all of its characters."
-          },
-          {
-             "name":"Stable Diffusion",
-             "description":"Used to generate images of Elaria's characters."
-          }
-       ],
-       "initialWorldInfoVisible":false
-    }
- ]
+   {
+      "language":"en",
+      "title":"Elysium",
+      "history":"Elysium is a realm where magic and technology coexist in harmony, with towering cities and sprawling forests. The land is ruled by a council of mages and scholars, who maintain balance and peace among the various races that inhabit the world. Despite the tranquility, dark forces lurk in the shadows, threatening to upset the harmony of Elysium.",
+      "characters":[
+         {
+            "name":"Seraphina",
+            "description":"A fierce warrior with a heart of gold.",
+            "imageUrl":"seraphinaImageUrl",
+            "background":"Seraphina was orphaned at a young age and raised by a group of skilled warriors. She honed her skills in combat and became a formidable fighter, determined to protect those in need.",
+            "race":"Half-elf",
+            "char_class":"Paladin",
+            "realm":"Elysium",
+            "appearance":"Seraphina stands tall with long, flowing silver hair and piercing blue eyes. She wears a gleaming suit of armor and carries a shield emblazoned with a golden sun.",
+            "personality":"Seraphina is brave and compassionate, always willing to lend a helping hand to those in need. She is fiercely loyal to her friends and will do anything to protect them."
+         },
+         {
+            "name":"Alaric",
+            "description":"A mysterious wizard with a troubled past.",
+            "imageUrl":"alaricImageUrl",
+            "background":"Alaric was once a powerful mage, but he was betrayed by a former ally and lost his powers. He now seeks to regain his abilities and uncover the truth behind his betrayal.",
+            "race":"Human",
+            "char_class":"Wizard",
+            "realm":"Elysium",
+            "appearance":"Alaric has long, dark hair and piercing green eyes. He wears a dark cloak and carries a staff adorned with magical symbols.",
+            "personality":"Alaric is guarded and enigmatic, keeping his true feelings hidden beneath a stoic exterior. However, he is deeply conflicted about his past and longs for redemption."
+         },
+         {
+            "name":"Talia",
+            "description":"A cunning rogue with a thirst for adventure.",
+            "imageUrl":"taliaImageUrl",
+            "background":"Talia grew up on the streets, learning to fend for herself and hone her skills in thievery and deception. She now seeks to use her abilities for good, taking on dangerous missions in exchange for valuable information.",
+            "race":"Halfling",
+            "char_class":"Rogue",
+            "realm":"Elysium",
+            "appearance":"Talia is small and nimble, with a mischievous grin and bright blue eyes. She wears a dark hooded cloak and carries a pair of daggers.",
+            "personality":"Talia is quick-witted and charming, able to talk her way out of any situation. She is fiercely independent and has a deep-seated love of adventure. However, she can be impulsive and reckless at times, getting herself into trouble."
+         }
+      ],
+      "ais":[
+         {
+            "name":"HuggingChat",
+            "description":"Used to generate the history of Elysium and all of its characters. The model used was NousResearch/Nous-Hermes-2-Mixtral-8x7B-DPO."
+         },
+         {
+            "name":"AnimatedDiff",
+            "description":"Used to generate the gifs of Elysium characters."
+         }
+      ],
+      "initialWorldInfoVisible":false
+   },
+   {
+      "language":"en",
+      "title":"Neo-Recife",
+      "history":"Neo-Recife is a sprawling megacity of neon lights and urban decay, built on old Pernambuco's ruins. Skyscrapers loom over streets plagued by acid rain and crime. Mega-corporations like Arasaka control life through surveillance and propaganda. Digital rebels, or Netrunners, hack networks to fight for freedom. Gangs and cybernetic assassins clash for power, while addictive cyberware blurs the line between human and machine. The legend of the Key, a powerful artifact, promises to overthrow these corporations and liberate the city, driving Netrunners to seek it out and change Neo-Recife's fate.",
+      "characters":[
+         {
+            "name":"Akemi Sato",
+            "description":"A ninja Netrunner of Japanese origin, with short black hair and piercing brown eyes. His slender, muscular body is covered in traditional Japanese tattoos and discreet cybernetic implants. She always wears a form-fitting black outfit, which combines elements of traditional Japanese clothing with cybernetic technology, and carries two cybernetic katanas on her back.",
+            "imageUrl":"akemiImageUrl",
+            "background":"Akemi was born in a small rural village in Japan, but from an early age she felt drawn to the digital world. After the death of her parents in a corporate attack, she fled to Neo-Recife in search of revenge. There, she joined a group of rebel hackers and trained as a Netrunner and ninja. Akemi has become one of the most skilled hackers in the city, using her skills to fight Arasaka and other megacorporations.",
+            "race":"Human",
+            "char_class":"Netrunner",
+            "strengths":"Intelligent, agile, skilled in hand-to-hand combat and hacking, loyal to his friends, dedicated to justice.",
+            "weaknesses":"Impulsive, vindictive, sometimes she acts without thinking about the consequences, she has difficulty trusting new people."
+         },
+         {
+            "name":"Jax \"Metalhead\" Stone",
+            "description":"Jax \"Metalhead\" Stone is an American-born cyborg mercenary with a body composed almost entirely of metal. His face is a cybernetic mask with glowing red eyes, and he has metallic arms and legs that give him superhuman strength. Jax always wears a black leather jacket and carries an arsenal of firearms and bladed weapons.",
+            "imageUrl":"jaxImageUrl",
+            "background":"Jax was a soldier in the American military who was seriously injured in a war against megacorporations. To save his life, he was subjected to a cybernetization process, which transformed him into a cyborg. Jax became a mercenary, using his skills for the highest bidder. He is known for his brutality and efficiency, but he also has his own code of honor and always protects the innocent.",
+            "race":"Human (Cyborg)",
+            "char_class":"Mercenary",
+            "strengths":"Strong, resilient, skilled in combat, loyal to his principles, protector of the innocent.",
+            "weaknesses":"Reckless, impulsive, prone to violence, has difficulty connecting with other people."
+         },
+         {
+            "name":"Xar'tul",
+            "description":"Xar'tul is an alien hacker of unknown origin. It has an insectoid appearance, with green skin, large, glowing eyes, and several antennae on its head. Xar'tul is small and thin, but has a keen intelligence and an incredible capacity for technological manipulation. He always wears a dark green cloak and carries a holographic datapad.",
+            "imageUrl":"xartulImageUrl",
+            "background":"Xar'tul arrived on Earth in a mysterious spaceship and quickly adapted to life on Neo-Reef. He became a talented hacker, using his skills to steal information from megacorporations and sell it to the highest bidder. Xar'tul is motivated by profit, but he also has a sense of justice and sometimes uses his abilities to help those in need.",
+            "race":"Alien",
+            "char_class":"Hacker",
+            "strengths":"Intelligent, skilled in hacking, creative, independent, defender of those in need.",
+            "weaknesses":"Arrogant, greedy, suspicious of other people, he has difficulty integrating into human society."
+         }
+      ],
+      "ais":[
+         {
+            "name":"Gemini",
+            "description":"Used to generate the history of Neo-Recife and all of its characters."
+         },
+         {
+            "name":"Civitai",
+            "description":"Used to generate the images of Neo-Recife characters, using the ToonYou model."
+         }
+      ],
+      "initialWorldInfoVisible":false
+   },
+   {
+      "language":"en",
+      "title":"Elaria - The Shattered Realms",
+      "history":"Elaria was once a unified world, a grand empire where magic flowed freely and technological marvels flourished. However, a cataclysmic event known as the Shattering splintered the realm into floating islands and divided it into three distinct environments: the Arcane Spires, the Verdant Wilds, and the Shadowlands. These realms hover in the sky, connected by ancient portals and traversable by airships.",
+      "characters":[
+         {
+            "name":"Arion Valeran",
+            "description":"A brilliant technomancer hailing from the Arcane Spires, a realm where magic and technology intertwine.",
+            "imageUrl":"arionImageUrl",
+            "background":"Arion grew up among the soaring towers of the Arcane Spires, where he was trained in the art of technomancy from a young age. He combines magic and technology to create incredible devices.",
+            "race":"Human",
+            "char_class":"Technomancer",
+            "realm":"Arcane Spires",
+            "appearance":"Arion has a lean build, with bright blue eyes that spark with intelligence. He wears a combination of robes and mechanical gear, always ready for both magic and machinery.",
+            "personality":"Arion is curious and inventive, always looking for new ways to combine magic and technology. He is dedicated to advancing knowledge and often loses himself in his work."
+         },
+         {
+            "name":"Thalia Greenshadow",
+            "description":"A devoted druid from the Verdant Wilds, a lush jungle teeming with mystical life, she is a guardian of nature.",
+            "imageUrl":"thaliaImageUrl",
+            "background":"Thalia has spent her life in the Verdant Wilds, communicating with nature and protecting the balance of the ecosystem. She is deeply connected to the flora and fauna of her realm.",
+            "race":"Elf",
+            "char_class":"Druid",
+            "realm":"Verdant Wilds",
+            "appearance":"Thalia has a graceful, athletic build with green eyes that reflect the vibrancy of the jungle. She dresses in natural fabrics and carries a staff adorned with vines and flowers.",
+            "personality":"Thalia is calm and nurturing, with a deep respect for all living things. She is wise and patient, always seeking peaceful solutions but ready to defend nature when necessary."
+         },
+         {
+            "name":"Kael Blackthorn",
+            "description":"A disciplined shadow monk from the Shadowlands, a realm shrouded in perpetual twilight and haunted by restless spirits.",
+            "imageUrl":"kaelImageUrl",
+            "background":"Kael was orphaned and raised in a monastery in the Shadowlands, where he learned the ways of the shadow monk. He has trained rigorously to master the art of stealth and combat.",
+            "race":"Human",
+            "char_class":"Shadow Monk",
+            "realm":"Shadowlands",
+            "appearance":"Kael has a rugged, muscular build, with dark hair and eyes that seem to absorb light. He wears simple, dark clothing that allows for maximum mobility and stealth.",
+            "personality":"Kael is stoic and disciplined, shaped by the harsh realities of the Shadowlands. He is a man of few words, preferring action over talk, and is dedicated to protecting the living from the restless dead."
+         }
+      ],
+      "ais":[
+         {
+            "name":"GPT-4o",
+            "description":"Used to generate the history of Elaria and all of its characters."
+         },
+         {
+            "name":"Stable Diffusion",
+            "description":"Used to generate images of Elaria's characters."
+         }
+      ],
+      "initialWorldInfoVisible":false
+   }
+]
