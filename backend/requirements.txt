@@ -3,3 +3,4 @@ Gunicorn
 jsonpickle
 flask-cors
 black
+Flask-Caching
